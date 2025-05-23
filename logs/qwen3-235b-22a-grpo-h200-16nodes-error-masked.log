@@ -1,0 +1,317 @@
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+cudf 24.6.0 requires pyarrow<16.2.0a0,>=16.1.0, but you have pyarrow 20.0.0 which is incompatible.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+cudf 24.6.0 requires pyarrow<16.2.0a0,>=16.1.0, but you have pyarrow 20.0.0 which is incompatible.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+cudf 24.6.0 requires pyarrow<16.2.0a0,>=16.1.0, but you have pyarrow 20.0.0 which is incompatible.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+cudf 24.6.0 requires pyarrow<16.2.0a0,>=16.1.0, but you have pyarrow 20.0.0 which is incompatible.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+cudf 24.6.0 requires pyarrow<16.2.0a0,>=16.1.0, but you have pyarrow 20.0.0 which is incompatible.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+cudf 24.6.0 requires pyarrow<16.2.0a0,>=16.1.0, but you have pyarrow 20.0.0 which is incompatible.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+cudf 24.6.0 requires pyarrow<16.2.0a0,>=16.1.0, but you have pyarrow 20.0.0 which is incompatible.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+cudf 24.6.0 requires pyarrow<16.2.0a0,>=16.1.0, but you have pyarrow 20.0.0 which is incompatible.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+cudf 24.6.0 requires pyarrow<16.2.0a0,>=16.1.0, but you have pyarrow 20.0.0 which is incompatible.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+cudf 24.6.0 requires pyarrow<16.2.0a0,>=16.1.0, but you have pyarrow 20.0.0 which is incompatible.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+cudf 24.6.0 requires pyarrow<16.2.0a0,>=16.1.0, but you have pyarrow 20.0.0 which is incompatible.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+cudf 24.6.0 requires pyarrow<16.2.0a0,>=16.1.0, but you have pyarrow 20.0.0 which is incompatible.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+cudf 24.6.0 requires pyarrow<16.2.0a0,>=16.1.0, but you have pyarrow 20.0.0 which is incompatible.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+cudf 24.6.0 requires pyarrow<16.2.0a0,>=16.1.0, but you have pyarrow 20.0.0 which is incompatible.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+cudf 24.6.0 requires pyarrow<16.2.0a0,>=16.1.0, but you have pyarrow 20.0.0 which is incompatible.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+cudf 24.6.0 requires pyarrow<16.2.0a0,>=16.1.0, but you have pyarrow 20.0.0 which is incompatible.
+[2025-05-23 07:40:55,400 W 1612288 1612288] global_state_accessor.cc:435: Retrying to get node with node ID d3343baa6620b9b9e89e592568c0544a2fa46f3c5a97b1f507ee738f
+[2025-05-23 07:40:55,495 W 1660151 1660151] global_state_accessor.cc:435: Retrying to get node with node ID 2eb484bc3551ddb0227070b8c340669d08f976992d6f4787a7bb92ab
+[2025-05-23 07:40:55,766 W 1783085 1783085] global_state_accessor.cc:435: Retrying to get node with node ID c34540c9d1f162d5f823c12b431bfddfa79901bd595a57dd7a038b09
+[2025-05-23 07:40:56,105 W 1887161 1887161] global_state_accessor.cc:435: Retrying to get node with node ID 89d4fdc7ad33afcbde5ee12b74bf2587c58b2b51829e00eb3ff2b3b2
+[2025-05-23 07:40:56,507 W 1782643 1782643] global_state_accessor.cc:435: Retrying to get node with node ID c5fe98820e3603d176b38ba08218b12e0881d777a319c6fed9d10bd5
+[2025-05-23 07:40:56,538 W 1804346 1804346] global_state_accessor.cc:435: Retrying to get node with node ID 8ce31ba7d5cdd4b954433bc2d3120444095a3c577a8f0b98337c4b7a
+[2025-05-23 07:40:56,679 W 1614250 1614250] global_state_accessor.cc:435: Retrying to get node with node ID a7f10ac867e195a9cc19f11ed84c35a1bfe7868234c8daa2826a0944
+[2025-05-23 07:40:56,684 W 1819346 1819346] global_state_accessor.cc:435: Retrying to get node with node ID 69c50661c9bf07fa19f8e179a4ef32bc73179b43f98f0b933a19f97e
+[2025-05-23 07:40:56,700 W 1896610 1896610] global_state_accessor.cc:435: Retrying to get node with node ID 8dcd912a76367fcb105d2607c443d46d0c2d1bbdd4f86ba8e08c86f4
+[2025-05-23 07:40:56,780 W 1794278 1794278] global_state_accessor.cc:435: Retrying to get node with node ID 930d953aebb9c401ba4e83f9c2fa7f62d2b96d263b7ea17ac0e51d98
+[2025-05-23 07:40:56,784 W 1816869 1816869] global_state_accessor.cc:435: Retrying to get node with node ID 97a6f9fccc396cccd16cac7a9be12b6defb30009ef48a910f8906b90
+[2025-05-23 07:40:56,837 W 2184280 2184280] global_state_accessor.cc:435: Retrying to get node with node ID 93df402de568a18081e538c20587cdf8455f024686a213ab607591cf
+[2025-05-23 07:40:57,262 W 662423 662423] global_state_accessor.cc:435: Retrying to get node with node ID 37e1cab383ebc90e6f953968b10c47fa9a2989026fc48819c7b0c695
+[2025-05-23 07:40:57,267 W 1689267 1689267] global_state_accessor.cc:435: Retrying to get node with node ID 6bb1800157a641b0bb119bdafe6c8313ad26e800e437c9ec418433a6
+[2025-05-23 07:40:57,267 W 1637063 1637063] global_state_accessor.cc:435: Retrying to get node with node ID c61decadd4cfd99ded8fb5b44e438923c42afa973a468e5186f0fa1a
+[2025-05-23 07:40:57,702 W 1896610 1896610] global_state_accessor.cc:435: Retrying to get node with node ID 8dcd912a76367fcb105d2607c443d46d0c2d1bbdd4f86ba8e08c86f4
+[2025-05-23 07:40:58,268 W 1637063 1637063] global_state_accessor.cc:435: Retrying to get node with node ID c61decadd4cfd99ded8fb5b44e438923c42afa973a468e5186f0fa1a
+2025-05-23 07:41:12,067	INFO worker.py:1694 -- Connecting to existing Ray cluster at address: [PRIVATE_IP]:6379...
+2025-05-23 07:41:12,081	INFO worker.py:1879 -- Connected to Ray cluster. View the dashboard at [1m[32m127.0.0.1:8265 [39m[22m
+[36m(TaskRunner pid=2191279)[0m 
+Filtering prompts longer than 32768 tokens:   0%|          | 0/7473 [00:00<?, ? examples/s]
+[36m(TaskRunner pid=2191279)[0m 
+Filtering prompts longer than 32768 tokens:  13%|█▎        | 1000/7473 [00:00<00:03, 1806.33 examples/s]
+[36m(TaskRunner pid=2191279)[0m 
+Filtering prompts longer than 32768 tokens:  27%|██▋       | 2000/7473 [00:00<00:02, 2593.59 examples/s]
+[36m(TaskRunner pid=2191279)[0m 
+Filtering prompts longer than 32768 tokens:  40%|████      | 3000/7473 [00:01<00:01, 3032.84 examples/s]
+[36m(TaskRunner pid=2191279)[0m 
+Filtering prompts longer than 32768 tokens:  54%|█████▎    | 4000/7473 [00:01<00:01, 3290.07 examples/s]
+[36m(TaskRunner pid=2191279)[0m 
+Filtering prompts longer than 32768 tokens:  67%|██████▋   | 5000/7473 [00:01<00:00, 3494.39 examples/s]
+[36m(TaskRunner pid=2191279)[0m 
+Filtering prompts longer than 32768 tokens:  80%|████████  | 6000/7473 [00:01<00:00, 3620.11 examples/s]
+[36m(TaskRunner pid=2191279)[0m 
+Filtering prompts longer than 32768 tokens:  94%|█████████▎| 7000/7473 [00:02<00:00, 3691.72 examples/s]
+[36m(TaskRunner pid=2191279)[0m 
+Filtering prompts longer than 32768 tokens: 100%|██████████| 7473/7473 [00:02<00:00, 3734.46 examples/s]
+Filtering prompts longer than 32768 tokens: 100%|██████████| 7473/7473 [00:02<00:00, 3323.18 examples/s]
+[36m(TaskRunner pid=2191279)[0m 
+Filtering prompts longer than 32768 tokens:   0%|          | 0/1319 [00:00<?, ? examples/s]
+[36m(TaskRunner pid=2191279)[0m 
+Filtering prompts longer than 32768 tokens:  76%|███████▌  | 1000/1319 [00:00<00:00, 3763.80 examples/s]
+[36m(TaskRunner pid=2191279)[0m 
+Filtering prompts longer than 32768 tokens: 100%|██████████| 1319/1319 [00:00<00:00, 3703.85 examples/s]
+[36m(TaskRunner pid=2191279)[0m DeprecationWarning: `ray.state.available_resources_per_node` is a private attribute and access will be removed in a future Ray version.
+[36m(TaskRunner pid=2191279)[0m WARNING:2025-05-23 07:41:26,795:Waiting for register center actor ErqSer_register_center to be ready. Elapsed time: 0 seconds out of 300 seconds.
+[36m(WorkerDict pid=1691639, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/megatron/core/transformer/transformer_config.py:991: UserWarning: Using a large number of experts (e.g. >=32) without fp32 routing. Consider enabling moe_router_dtype for better numerical stability.
+[36m(WorkerDict pid=1691639, ip=[PRIVATE_IP])[0m   warnings.warn(
+[36m(WorkerDict pid=1691639, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/megatron/core/transformer/transformer_layer.py:361: UserWarning: TransformerLayer._get_layer_offset is deprecated.Please use get_transformer_layer_offset instead.
+[36m(WorkerDict pid=664245, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/megatron/core/dist_checkpointing/strategies/torch.py:892: FutureWarning: `load_state_dict` is deprecated and will be removed in future versions. Please use `load` instead.
+[36m(WorkerDict pid=664245, ip=[PRIVATE_IP])[0m   checkpoint.load_state_dict(
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/megatron/core/transformer/transformer_config.py:991: UserWarning: Using a large number of experts (e.g. >=32) without fp32 routing. Consider enabling moe_router_dtype for better numerical stability.[32m [repeated 127x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/user-guides/configure-logging.html#log-deduplication for more options.)[0m
+[36m(WorkerDict pid=2194640)[0m   warnings.warn([32m [repeated 255x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m /usr/local/lib/python3.10/dist-packages/megatron/core/transformer/transformer_layer.py:361: UserWarning: TransformerLayer._get_layer_offset is deprecated.Please use get_transformer_layer_offset instead.[32m [repeated 127x across cluster][0m
+[36m(WorkerDict pid=664245, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/torch/distributed/checkpoint/planner_helpers.py:316: FutureWarning: Please use DTensor instead and we are deprecating ShardedTensor.
+[36m(WorkerDict pid=664245, ip=[PRIVATE_IP])[0m   device = getattr(value, "device", None)
+[36m(WorkerDict pid=664245, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/torch/distributed/checkpoint/default_planner.py:362: FutureWarning: Please use DTensor instead and we are deprecating ShardedTensor.
+[36m(WorkerDict pid=664245, ip=[PRIVATE_IP])[0m   and md.size != obj.size()
+[36m(WorkerDict pid=664243, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/megatron/core/dist_checkpointing/strategies/torch.py:892: FutureWarning: `load_state_dict` is deprecated and will be removed in future versions. Please use `load` instead.[32m [repeated 3x across cluster][0m
+[36m(WorkerDict pid=664243, ip=[PRIVATE_IP])[0m   checkpoint.load_state_dict([32m [repeated 3x across cluster][0m
+[36m(WorkerDict pid=664243, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/torch/distributed/checkpoint/default_planner.py:362: FutureWarning: Please use DTensor instead and we are deprecating ShardedTensor.[32m [repeated 6x across cluster][0m
+[36m(WorkerDict pid=664243, ip=[PRIVATE_IP])[0m   device = getattr(value, "device", None)[32m [repeated 3x across cluster][0m
+[36m(WorkerDict pid=664243, ip=[PRIVATE_IP])[0m   and md.size != obj.size()[32m [repeated 3x across cluster][0m
+[36m(WorkerDict pid=1785316, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/megatron/core/dist_checkpointing/strategies/torch.py:892: FutureWarning: `load_state_dict` is deprecated and will be removed in future versions. Please use `load` instead.[32m [repeated 31x across cluster][0m
+[36m(WorkerDict pid=1785316, ip=[PRIVATE_IP])[0m   checkpoint.load_state_dict([32m [repeated 31x across cluster][0m
+[36m(WorkerDict pid=1796538, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/torch/distributed/checkpoint/default_planner.py:362: FutureWarning: Please use DTensor instead and we are deprecating ShardedTensor.[32m [repeated 48x across cluster][0m
+[36m(WorkerDict pid=1796538, ip=[PRIVATE_IP])[0m   device = getattr(value, "device", None)[32m [repeated 24x across cluster][0m
+[36m(WorkerDict pid=1796538, ip=[PRIVATE_IP])[0m   and md.size != obj.size()[32m [repeated 24x across cluster][0m
+[36m(WorkerDict pid=1784879, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/megatron/core/dist_checkpointing/strategies/torch.py:892: FutureWarning: `load_state_dict` is deprecated and will be removed in future versions. Please use `load` instead.[32m [repeated 61x across cluster][0m
+[36m(WorkerDict pid=1784879, ip=[PRIVATE_IP])[0m   checkpoint.load_state_dict([32m [repeated 61x across cluster][0m
+[36m(WorkerDict pid=1661961, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/torch/distributed/checkpoint/default_planner.py:362: FutureWarning: Please use DTensor instead and we are deprecating ShardedTensor.[32m [repeated 130x across cluster][0m
+[36m(WorkerDict pid=1661961, ip=[PRIVATE_IP])[0m   device = getattr(value, "device", None)[32m [repeated 65x across cluster][0m
+[36m(WorkerDict pid=1661961, ip=[PRIVATE_IP])[0m   and md.size != obj.size()[32m [repeated 65x across cluster][0m
+[36m(WorkerDict pid=1639640, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/megatron/core/dist_checkpointing/strategies/torch.py:892: FutureWarning: `load_state_dict` is deprecated and will be removed in future versions. Please use `load` instead.[32m [repeated 20x across cluster][0m
+[36m(WorkerDict pid=1639640, ip=[PRIVATE_IP])[0m   checkpoint.load_state_dict([32m [repeated 20x across cluster][0m
+[36m(WorkerDict pid=1796544, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/torch/distributed/checkpoint/default_planner.py:362: FutureWarning: Please use DTensor instead and we are deprecating ShardedTensor.[32m [repeated 48x across cluster][0m
+[36m(WorkerDict pid=1796544, ip=[PRIVATE_IP])[0m   device = getattr(value, "device", None)[32m [repeated 24x across cluster][0m
+[36m(WorkerDict pid=1796544, ip=[PRIVATE_IP])[0m   and md.size != obj.size()[32m [repeated 24x across cluster][0m
+[36m(WorkerDict pid=1661962, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/megatron/core/dist_checkpointing/strategies/torch.py:892: FutureWarning: `load_state_dict` is deprecated and will be removed in future versions. Please use `load` instead.[32m [repeated 3x across cluster][0m
+[36m(WorkerDict pid=1661962, ip=[PRIVATE_IP])[0m   checkpoint.load_state_dict([32m [repeated 3x across cluster][0m
+[36m(WorkerDict pid=664244, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/torch/distributed/checkpoint/default_planner.py:362: FutureWarning: Please use DTensor instead and we are deprecating ShardedTensor.[32m [repeated 6x across cluster][0m
+[36m(WorkerDict pid=664244, ip=[PRIVATE_IP])[0m   device = getattr(value, "device", None)[32m [repeated 3x across cluster][0m
+[36m(WorkerDict pid=664244, ip=[PRIVATE_IP])[0m   and md.size != obj.size()[32m [repeated 3x across cluster][0m
+[36m(WorkerDict pid=2194634)[0m /usr/local/lib/python3.10/dist-packages/megatron/core/dist_checkpointing/strategies/torch.py:892: FutureWarning: `load_state_dict` is deprecated and will be removed in future versions. Please use `load` instead.[32m [repeated 2x across cluster][0m
+[36m(WorkerDict pid=2194634)[0m   checkpoint.load_state_dict([32m [repeated 2x across cluster][0m
+[36m(WorkerDict pid=2194634)[0m /usr/local/lib/python3.10/dist-packages/torch/distributed/checkpoint/planner_helpers.py:316: FutureWarning: Please use DTensor instead and we are deprecating ShardedTensor.
+[36m(WorkerDict pid=2194634)[0m   device = getattr(value, "device", None)
+[36m(WorkerDict pid=2194634)[0m /usr/local/lib/python3.10/dist-packages/torch/distributed/checkpoint/default_planner.py:362: FutureWarning: Please use DTensor instead and we are deprecating ShardedTensor.
+[36m(WorkerDict pid=2194634)[0m   and md.size != obj.size()
+[36m(WorkerDict pid=2194640)[0m /usr/local/lib/python3.10/dist-packages/megatron/core/dist_checkpointing/strategies/torch.py:892: FutureWarning: `load_state_dict` is deprecated and will be removed in future versions. Please use `load` instead.[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m   checkpoint.load_state_dict([32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m /usr/local/lib/python3.10/dist-packages/torch/distributed/checkpoint/default_planner.py:362: FutureWarning: Please use DTensor instead and we are deprecating ShardedTensor.[32m [repeated 14x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m   device = getattr(value, "device", None)[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m   and md.size != obj.size()[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=1784880, ip=[PRIVATE_IP])[0m /DATA_PATH/verl.git/verl/utils/megatron_utils.py:250: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+[36m(WorkerDict pid=1784880, ip=[PRIVATE_IP])[0m   if buffer.param_data.storage().size() > 0:
+[36m(WorkerDict pid=1898929, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/megatron/core/transformer/transformer_config.py:991: UserWarning: Using a large number of experts (e.g. >=32) without fp32 routing. Consider enabling moe_router_dtype for better numerical stability.
+[36m(WorkerDict pid=1898929, ip=[PRIVATE_IP])[0m   warnings.warn(
+[36m(WorkerDict pid=664242, ip=[PRIVATE_IP])[0m /DATA_PATH/verl.git/verl/utils/megatron_utils.py:250: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()[32m [repeated 127x across cluster][0m
+[36m(WorkerDict pid=664242, ip=[PRIVATE_IP])[0m   if buffer.param_data.storage().size() > 0:[32m [repeated 127x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m /usr/local/lib/python3.10/dist-packages/megatron/core/transformer/transformer_config.py:991: UserWarning: Using a large number of experts (e.g. >=32) without fp32 routing. Consider enabling moe_router_dtype for better numerical stability.[32m [repeated 120x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m   warnings.warn([32m [repeated 120x across cluster][0m
+[36m(WorkerDict pid=2194635)[0m DEBUG:2025-05-23 07:51:04,505:generate_sequences Before generate_sequences, memory allocated (GB): 89.98, memory reserved (GB): 90.53, device memory used/total (GB): 32.61/139.81
+[36m(WorkerDict pid=2194640)[0m /usr/local/lib/python3.10/dist-packages/megatron/core/transformer/transformer_config.py:991: UserWarning: Using a large number of experts (e.g. >=32) without fp32 routing. Consider enabling moe_router_dtype for better numerical stability.[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m   warnings.warn([32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m INFO:2025-05-23 07:51:22,099:vLLM load weights, loaded_params: 849
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 07:51:04,593:generate_sequences Before generate_sequences, memory allocated (GB): 89.98, memory reserved (GB): 90.31, device memory used/total (GB): 32.26/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 07:58:20,229:generate_sequences After generate_sequences, memory allocated (GB): 90.05, memory reserved (GB): 90.53, device memory used/total (GB): 35.49/139.81
+[36m(WorkerDict pid=2194640)[0m INFO:2025-05-23 07:51:22,100:vLLM load weights, loaded_params: 849[32m [repeated 7x across cluster][0m
+[36m(TaskRunner pid=2191279)[0m 
+Training Progress:   0%|          | 0/290 [00:00<?, ?it/s]
+[36m(WorkerDict pid=2194635)[0m DEBUG:2025-05-23 07:58:24,648:generate_sequences Before generate_sequences, memory allocated (GB): 89.98, memory reserved (GB): 90.53, device memory used/total (GB): 35.55/139.81
+[36m(WorkerDict pid=2194637)[0m DEBUG:2025-05-23 07:58:20,526:generate_sequences After generate_sequences, memory allocated (GB): 90.04, memory reserved (GB): 90.38, device memory used/total (GB): 35.52/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m INFO:2025-05-23 07:58:32,520:vLLM load weights, loaded_params: 849
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 07:58:24,662:generate_sequences Before generate_sequences, memory allocated (GB): 89.98, memory reserved (GB): 90.38, device memory used/total (GB): 35.23/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194641)[0m INFO:2025-05-23 07:58:32,521:vLLM load weights, loaded_params: 849
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:05:26,959:generate_sequences After generate_sequences, memory allocated (GB): 89.99, memory reserved (GB): 90.53, device memory used/total (GB): 35.49/139.81
+[36m(WorkerDict pid=2194640)[0m INFO:2025-05-23 07:58:32,522:vLLM load weights, loaded_params: 849[32m [repeated 6x across cluster][0m
+[36m(WorkerDict pid=2194638)[0m DEBUG:2025-05-23 08:05:26,978:generate_sequences After generate_sequences, memory allocated (GB): 89.99, memory reserved (GB): 90.53, device memory used/total (GB): 35.30/139.81
+[36m(WorkerDict pid=2194635)[0m DEBUG:2025-05-23 08:05:33,570:compute_log_prob Before compute_log_prob, memory allocated (GB): 89.98, memory reserved (GB): 90.53, device memory used/total (GB): 35.55/139.81
+[36m(WorkerDict pid=2194636)[0m DEBUG:2025-05-23 08:05:27,160:generate_sequences After generate_sequences, memory allocated (GB): 89.99, memory reserved (GB): 90.53, device memory used/total (GB): 35.38/139.81[32m [repeated 6x across cluster][0m
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:05:34,090:megatron actor Before compute_log_prob, memory allocated (GB): 93.72, memory reserved (GB): 94.23, device memory used/total (GB): 38.91/139.81
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m WARNING:2025-05-23 08:05:37,079:flash-attn v3 may provide important feature support or performance improvement. Please install flash-attn v3 by 
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m (1) git clone https://github.com/Dao-AILab/flash-attention.git
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m (2) cd flash-attention/ && git checkout 27f501d && cd hopper/ && python setup.py install
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m (3) python_path=`python -c "import site; print(site.getsitepackages()[0])"`
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m (4) mkdir -p $python_path/flash_attn_3
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m (5) wget -P $python_path/flash_attn_3 https://raw.githubusercontent.com/Dao-AILab/flash-attention/27f501dbe011f4371bff938fe7e09311ab3002fa/hopper/flash_attn_interface.py
+[36m(WorkerDict pid=2194641)[0m DEBUG:2025-05-23 08:05:33,967:compute_log_prob Before compute_log_prob, memory allocated (GB): 89.98, memory reserved (GB): 90.53, device memory used/total (GB): 33.27/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:05:34,529:megatron actor Before compute_log_prob, memory allocated (GB): 93.72, memory reserved (GB): 94.05, device memory used/total (GB): 38.91/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=1614523, ip=[PRIVATE_IP])[0m WARNING:2025-05-23 08:05:42,144:flash-attn v3 may provide important feature support or performance improvement. Please install flash-attn v3 by [32m [repeated 58x across cluster][0m
+[36m(WorkerDict pid=1614523, ip=[PRIVATE_IP])[0m (1) git clone https://github.com/Dao-AILab/flash-attention.git[32m [repeated 58x across cluster][0m
+[36m(WorkerDict pid=1614523, ip=[PRIVATE_IP])[0m (2) cd flash-attention/ && git checkout 27f501d && cd hopper/ && python setup.py install[32m [repeated 58x across cluster][0m
+[36m(WorkerDict pid=1614523, ip=[PRIVATE_IP])[0m (3) python_path=`python -c "import site; print(site.getsitepackages()[0])"`[32m [repeated 58x across cluster][0m
+[36m(WorkerDict pid=1614523, ip=[PRIVATE_IP])[0m (4) mkdir -p $python_path/flash_attn_3[32m [repeated 58x across cluster][0m
+[36m(WorkerDict pid=1614523, ip=[PRIVATE_IP])[0m (5) wget -P $python_path/flash_attn_3 https://raw.githubusercontent.com/Dao-AILab/flash-attention/27f501dbe011f4371bff938fe7e09311ab3002fa/hopper/flash_attn_interface.py[32m [repeated 58x across cluster][0m
+[36m(WorkerDict pid=1784876, ip=[PRIVATE_IP])[0m WARNING:2025-05-23 08:05:52,942:flash-attn v3 may provide important feature support or performance improvement. Please install flash-attn v3 by [32m [repeated 6x across cluster][0m
+[36m(WorkerDict pid=1784876, ip=[PRIVATE_IP])[0m (1) git clone https://github.com/Dao-AILab/flash-attention.git[32m [repeated 6x across cluster][0m
+[36m(WorkerDict pid=1784876, ip=[PRIVATE_IP])[0m (2) cd flash-attention/ && git checkout 27f501d && cd hopper/ && python setup.py install[32m [repeated 6x across cluster][0m
+[36m(WorkerDict pid=1784876, ip=[PRIVATE_IP])[0m (3) python_path=`python -c "import site; print(site.getsitepackages()[0])"`[32m [repeated 6x across cluster][0m
+[36m(WorkerDict pid=1784876, ip=[PRIVATE_IP])[0m (4) mkdir -p $python_path/flash_attn_3[32m [repeated 6x across cluster][0m
+[36m(WorkerDict pid=1784876, ip=[PRIVATE_IP])[0m (5) wget -P $python_path/flash_attn_3 https://raw.githubusercontent.com/Dao-AILab/flash-attention/27f501dbe011f4371bff938fe7e09311ab3002fa/hopper/flash_attn_interface.py[32m [repeated 6x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:06:21,442:megatron actor After compute_log_prob, memory allocated (GB): 93.94, memory reserved (GB): 94.54, device memory used/total (GB): 41.91/139.81
+[36m(WorkerDict pid=1819167, ip=[PRIVATE_IP])[0m WARNING:2025-05-23 08:05:55,514:flash-attn v3 may provide important feature support or performance improvement. Please install flash-attn v3 by [32m [repeated 63x across cluster][0m
+[36m(WorkerDict pid=1819167, ip=[PRIVATE_IP])[0m (1) git clone https://github.com/Dao-AILab/flash-attention.git[32m [repeated 63x across cluster][0m
+[36m(WorkerDict pid=1819167, ip=[PRIVATE_IP])[0m (2) cd flash-attention/ && git checkout 27f501d && cd hopper/ && python setup.py install[32m [repeated 63x across cluster][0m
+[36m(WorkerDict pid=1819167, ip=[PRIVATE_IP])[0m (3) python_path=`python -c "import site; print(site.getsitepackages()[0])"`[32m [repeated 63x across cluster][0m
+[36m(WorkerDict pid=1819167, ip=[PRIVATE_IP])[0m (4) mkdir -p $python_path/flash_attn_3[32m [repeated 63x across cluster][0m
+[36m(WorkerDict pid=1819167, ip=[PRIVATE_IP])[0m (5) wget -P $python_path/flash_attn_3 https://raw.githubusercontent.com/Dao-AILab/flash-attention/27f501dbe011f4371bff938fe7e09311ab3002fa/hopper/flash_attn_interface.py[32m [repeated 63x across cluster][0m
+[36m(WorkerDict pid=2194638)[0m DEBUG:2025-05-23 08:06:24,076:compute_log_prob After compute_log_prob, memory allocated (GB): 90.20, memory reserved (GB): 90.95, device memory used/total (GB): 38.09/139.81
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:06:29,421:compute_ref_log_prob Before compute_ref_log_prob, memory allocated (GB): 90.16, memory reserved (GB): 90.83, device memory used/total (GB): 37.87/139.81
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:06:21,445:megatron actor After compute_log_prob, memory allocated (GB): 93.91, memory reserved (GB): 94.38, device memory used/total (GB): 41.61/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:06:24,242:compute_log_prob After compute_log_prob, memory allocated (GB): 90.16, memory reserved (GB): 90.83, device memory used/total (GB): 37.87/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:06:30,279:megatron actor Before compute_log_prob, memory allocated (GB): 100.56, memory reserved (GB): 100.91, device memory used/total (GB): 47.96/139.81
+[36m(WorkerDict pid=2194641)[0m DEBUG:2025-05-23 08:06:29,897:compute_ref_log_prob Before compute_ref_log_prob, memory allocated (GB): 90.17, memory reserved (GB): 90.80, device memory used/total (GB): 35.95/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:06:53,127:megatron actor After compute_log_prob, memory allocated (GB): 100.63, memory reserved (GB): 101.01, device memory used/total (GB): 48.38/139.81
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:06:30,697:megatron actor Before compute_log_prob, memory allocated (GB): 100.56, memory reserved (GB): 100.91, device memory used/total (GB): 48.13/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194641)[0m DEBUG:2025-05-23 08:06:53,130:megatron actor After compute_log_prob, memory allocated (GB): 100.57, memory reserved (GB): 100.99, device memory used/total (GB): 46.14/139.81
+[36m(WorkerDict pid=2194638)[0m DEBUG:2025-05-23 08:06:53,914:compute_ref_log_prob After compute_ref_log_prob, memory allocated (GB): 90.28, memory reserved (GB): 90.99, device memory used/total (GB): 38.13/139.81
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:06:56,680:update_actor Before update_actor, memory allocated (GB): 90.17, memory reserved (GB): 90.85, device memory used/total (GB): 37.90/139.81
+[36m(WorkerDict pid=2194637)[0m DEBUG:2025-05-23 08:06:58,896:megatron actor Before update_policy, memory allocated (GB): 108.22, memory reserved (GB): 108.60, device memory used/total (GB): 56.15/139.81
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:06:53,132:megatron actor After compute_log_prob, memory allocated (GB): 100.57, memory reserved (GB): 100.93, device memory used/total (GB): 48.15/139.81[32m [repeated 6x across cluster][0m
+[36m(WorkerDict pid=2194636)[0m DEBUG:2025-05-23 08:06:54,324:compute_ref_log_prob After compute_ref_log_prob, memory allocated (GB): 90.27, memory reserved (GB): 90.88, device memory used/total (GB): 38.10/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=1898926, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/torch/autograd/graph.py:823: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /pytorch/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:62.)
+[36m(WorkerDict pid=1898926, ip=[PRIVATE_IP])[0m   return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[36m(WorkerDict pid=2194641)[0m DEBUG:2025-05-23 08:06:57,173:update_actor Before update_actor, memory allocated (GB): 90.18, memory reserved (GB): 90.88, device memory used/total (GB): 36.03/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:06:59,196:megatron actor Before update_policy, memory allocated (GB): 108.16, memory reserved (GB): 108.54, device memory used/total (GB): 55.77/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:07:53,887:megatron actor After update_policy, memory allocated (GB): 121.94, memory reserved (GB): 125.09, device memory used/total (GB): 73.37/139.81
+[36m(WorkerDict pid=2194637)[0m /usr/local/lib/python3.10/dist-packages/torch/autograd/graph.py:823: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /pytorch/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:62.)[32m [repeated 127x across cluster][0m
+[36m(WorkerDict pid=2194637)[0m   return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass[32m [repeated 127x across cluster][0m
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:08:05,578:update_actor After update_actor, memory allocated (GB): 90.24, memory reserved (GB): 91.19, device memory used/total (GB): 39.18/139.81
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:07:53,893:megatron actor After update_policy, memory allocated (GB): 121.87, memory reserved (GB): 125.21, device memory used/total (GB): 73.35/139.81[32m [repeated 7x across cluster][0m
+[36m(TaskRunner pid=2191279)[0m 
+Training Progress:   0%|          | 1/290 [09:42<46:45:21, 582.43s/it]
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:08:06,471:generate_sequences Before generate_sequences, memory allocated (GB): 90.20, memory reserved (GB): 91.19, device memory used/total (GB): 39.18/139.81
+[36m(WorkerDict pid=2194639)[0m INFO:2025-05-23 08:08:14,328:vLLM load weights, loaded_params: 849
+[36m(WorkerDict pid=2194636)[0m DEBUG:2025-05-23 08:08:06,108:update_actor After update_actor, memory allocated (GB): 90.30, memory reserved (GB): 91.39, device memory used/total (GB): 39.55/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:08:06,485:generate_sequences Before generate_sequences, memory allocated (GB): 90.21, memory reserved (GB): 91.01, device memory used/total (GB): 39.18/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:12:50,194:generate_sequences After generate_sequences, memory allocated (GB): 90.28, memory reserved (GB): 91.18, device memory used/total (GB): 39.50/139.81
+[36m(WorkerDict pid=2194640)[0m INFO:2025-05-23 08:08:14,328:vLLM load weights, loaded_params: 849[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:14:52,660:compute_log_prob Before compute_log_prob, memory allocated (GB): 90.20, memory reserved (GB): 91.15, device memory used/total (GB): 39.14/139.81
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:12:50,245:generate_sequences After generate_sequences, memory allocated (GB): 90.21, memory reserved (GB): 90.97, device memory used/total (GB): 39.14/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:14:53,378:megatron actor Before compute_log_prob, memory allocated (GB): 93.94, memory reserved (GB): 94.85, device memory used/total (GB): 42.84/139.81
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:15:14,475:megatron actor After compute_log_prob, memory allocated (GB): 93.98, memory reserved (GB): 94.63, device memory used/total (GB): 42.95/139.81
+[36m(WorkerDict pid=2194641)[0m DEBUG:2025-05-23 08:14:53,121:compute_log_prob Before compute_log_prob, memory allocated (GB): 90.21, memory reserved (GB): 91.16, device memory used/total (GB): 37.25/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:14:53,793:megatron actor Before compute_log_prob, memory allocated (GB): 93.94, memory reserved (GB): 94.67, device memory used/total (GB): 42.84/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:15:17,128:compute_log_prob After compute_log_prob, memory allocated (GB): 90.24, memory reserved (GB): 90.93, device memory used/total (GB): 39.25/139.81
+[36m(WorkerDict pid=2194635)[0m DEBUG:2025-05-23 08:15:22,916:compute_ref_log_prob Before compute_ref_log_prob, memory allocated (GB): 90.20, memory reserved (GB): 90.92, device memory used/total (GB): 39.29/139.81
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:15:14,468:megatron actor After compute_log_prob, memory allocated (GB): 93.94, memory reserved (GB): 94.47, device memory used/total (GB): 42.64/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:15:17,332:compute_log_prob After compute_log_prob, memory allocated (GB): 90.20, memory reserved (GB): 90.91, device memory used/total (GB): 38.90/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194635)[0m DEBUG:2025-05-23 08:15:23,906:megatron actor Before compute_log_prob, memory allocated (GB): 100.60, memory reserved (GB): 100.97, device memory used/total (GB): 49.34/139.81
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:15:23,138:compute_ref_log_prob Before compute_ref_log_prob, memory allocated (GB): 90.20, memory reserved (GB): 90.77, device memory used/total (GB): 38.94/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:15:42,807:megatron actor After compute_log_prob, memory allocated (GB): 100.60, memory reserved (GB): 101.02, device memory used/total (GB): 49.33/139.81
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:15:24,427:megatron actor Before compute_log_prob, memory allocated (GB): 100.60, memory reserved (GB): 100.95, device memory used/total (GB): 49.12/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194641)[0m DEBUG:2025-05-23 08:15:42,811:megatron actor After compute_log_prob, memory allocated (GB): 100.60, memory reserved (GB): 100.97, device memory used/total (GB): 47.06/139.81
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:15:43,848:compute_ref_log_prob After compute_ref_log_prob, memory allocated (GB): 90.24, memory reserved (GB): 90.90, device memory used/total (GB): 39.22/139.81
+[36m(WorkerDict pid=2194635)[0m DEBUG:2025-05-23 08:15:48,079:update_actor Before update_actor, memory allocated (GB): 90.20, memory reserved (GB): 90.92, device memory used/total (GB): 39.29/139.81
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:15:43,089:megatron actor After compute_log_prob, memory allocated (GB): 100.60, memory reserved (GB): 100.97, device memory used/total (GB): 48.96/139.81[32m [repeated 6x across cluster][0m
+[36m(WorkerDict pid=2194637)[0m DEBUG:2025-05-23 08:15:50,557:megatron actor Before update_policy, memory allocated (GB): 121.89, memory reserved (GB): 122.32, device memory used/total (GB): 70.81/139.81
+[36m(WorkerDict pid=2194635)[0m DEBUG:2025-05-23 08:15:44,325:compute_ref_log_prob After compute_ref_log_prob, memory allocated (GB): 90.24, memory reserved (GB): 90.92, device memory used/total (GB): 39.29/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=1796542, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/torch/autograd/graph.py:823: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /pytorch/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:62.)
+[36m(WorkerDict pid=1796542, ip=[PRIVATE_IP])[0m   return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:15:48,427:update_actor Before update_actor, memory allocated (GB): 90.20, memory reserved (GB): 90.78, device memory used/total (GB): 38.95/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194641)[0m DEBUG:2025-05-23 08:15:51,459:megatron actor Before update_policy, memory allocated (GB): 121.87, memory reserved (GB): 122.29, device memory used/total (GB): 68.38/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:16:44,542:megatron actor After update_policy, memory allocated (GB): 121.87, memory reserved (GB): 122.58, device memory used/total (GB): 70.89/139.81
+[36m(WorkerDict pid=2194640)[0m /usr/local/lib/python3.10/dist-packages/torch/autograd/graph.py:823: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /pytorch/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:62.)[32m [repeated 47x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m   return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass[32m [repeated 47x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:16:48,911:update_actor After update_actor, memory allocated (GB): 90.24, memory reserved (GB): 91.21, device memory used/total (GB): 39.53/139.81
+[36m(WorkerDict pid=2194637)[0m DEBUG:2025-05-23 08:16:44,972:megatron actor After update_policy, memory allocated (GB): 121.89, memory reserved (GB): 122.67, device memory used/total (GB): 71.16/139.81[32m [repeated 7x across cluster][0m
+[36m(TaskRunner pid=2191279)[0m 
+Training Progress:   1%|          | 2/290 [18:25<43:49:03, 547.72s/it]
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:16:49,898:generate_sequences Before generate_sequences, memory allocated (GB): 90.20, memory reserved (GB): 91.21, device memory used/total (GB): 39.53/139.81
+[36m(WorkerDict pid=2194639)[0m INFO:2025-05-23 08:16:57,671:vLLM load weights, loaded_params: 849
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:16:49,533:update_actor After update_actor, memory allocated (GB): 90.24, memory reserved (GB): 91.24, device memory used/total (GB): 39.23/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:16:49,900:generate_sequences Before generate_sequences, memory allocated (GB): 90.20, memory reserved (GB): 91.05, device memory used/total (GB): 39.22/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:24:05,862:generate_sequences After generate_sequences, memory allocated (GB): 90.21, memory reserved (GB): 91.17, device memory used/total (GB): 39.49/139.81
+[36m(WorkerDict pid=2194640)[0m INFO:2025-05-23 08:16:57,671:vLLM load weights, loaded_params: 849[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:24:10,154:compute_log_prob Before compute_log_prob, memory allocated (GB): 90.20, memory reserved (GB): 91.20, device memory used/total (GB): 39.19/139.81
+[36m(WorkerDict pid=2194635)[0m DEBUG:2025-05-23 08:24:10,924:megatron actor Before compute_log_prob, memory allocated (GB): 93.94, memory reserved (GB): 94.88, device memory used/total (GB): 43.25/139.81
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:24:06,011:generate_sequences After generate_sequences, memory allocated (GB): 90.21, memory reserved (GB): 91.20, device memory used/total (GB): 39.19/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:24:33,347:megatron actor After compute_log_prob, memory allocated (GB): 93.97, memory reserved (GB): 94.58, device memory used/total (GB): 42.90/139.81
+[36m(WorkerDict pid=2194641)[0m DEBUG:2025-05-23 08:24:10,589:compute_log_prob Before compute_log_prob, memory allocated (GB): 90.20, memory reserved (GB): 91.25, device memory used/total (GB): 37.34/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:24:11,235:megatron actor Before compute_log_prob, memory allocated (GB): 93.94, memory reserved (GB): 94.72, device memory used/total (GB): 42.89/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:24:36,039:compute_log_prob After compute_log_prob, memory allocated (GB): 90.23, memory reserved (GB): 90.88, device memory used/total (GB): 39.20/139.81
+[36m(WorkerDict pid=2194635)[0m DEBUG:2025-05-23 08:24:40,964:compute_ref_log_prob Before compute_ref_log_prob, memory allocated (GB): 90.21, memory reserved (GB): 90.92, device memory used/total (GB): 39.29/139.81
+[36m(WorkerDict pid=2194636)[0m DEBUG:2025-05-23 08:24:33,736:megatron actor After compute_log_prob, memory allocated (GB): 93.98, memory reserved (GB): 94.70, device memory used/total (GB): 42.86/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194636)[0m DEBUG:2025-05-23 08:24:36,413:compute_log_prob After compute_log_prob, memory allocated (GB): 90.24, memory reserved (GB): 94.70, device memory used/total (GB): 42.86/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:24:41,925:megatron actor Before compute_log_prob, memory allocated (GB): 100.61, memory reserved (GB): 100.99, device memory used/total (GB): 48.98/139.81
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:24:41,155:compute_ref_log_prob Before compute_ref_log_prob, memory allocated (GB): 90.24, memory reserved (GB): 90.71, device memory used/total (GB): 38.88/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:25:02,518:megatron actor After compute_log_prob, memory allocated (GB): 100.65, memory reserved (GB): 101.01, device memory used/total (GB): 49.32/139.81
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:24:42,173:megatron actor Before compute_log_prob, memory allocated (GB): 100.63, memory reserved (GB): 100.99, device memory used/total (GB): 49.16/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194641)[0m DEBUG:2025-05-23 08:25:02,525:megatron actor After compute_log_prob, memory allocated (GB): 100.67, memory reserved (GB): 101.04, device memory used/total (GB): 47.13/139.81
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:25:03,466:compute_ref_log_prob After compute_ref_log_prob, memory allocated (GB): 90.29, memory reserved (GB): 90.91, device memory used/total (GB): 39.22/139.81
+[36m(WorkerDict pid=2194635)[0m DEBUG:2025-05-23 08:25:05,899:update_actor Before update_actor, memory allocated (GB): 90.22, memory reserved (GB): 90.94, device memory used/total (GB): 39.31/139.81
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:25:08,501:megatron actor Before update_policy, memory allocated (GB): 121.92, memory reserved (GB): 122.31, device memory used/total (GB): 70.62/139.81
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:25:02,530:megatron actor After compute_log_prob, memory allocated (GB): 100.67, memory reserved (GB): 101.06, device memory used/total (GB): 49.23/139.81[32m [repeated 6x across cluster][0m
+[36m(WorkerDict pid=2194636)[0m DEBUG:2025-05-23 08:25:03,753:compute_ref_log_prob After compute_ref_log_prob, memory allocated (GB): 90.31, memory reserved (GB): 91.03, device memory used/total (GB): 39.19/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194641)[0m DEBUG:2025-05-23 08:25:57,463:megatron actor After update_policy, memory allocated (GB): 121.94, memory reserved (GB): 122.74, device memory used/total (GB): 68.83/139.81
+[36m(WorkerDict pid=2194641)[0m DEBUG:2025-05-23 08:25:06,145:update_actor Before update_actor, memory allocated (GB): 90.27, memory reserved (GB): 90.94, device memory used/total (GB): 37.03/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194635)[0m DEBUG:2025-05-23 08:25:09,160:megatron actor Before update_policy, memory allocated (GB): 121.89, memory reserved (GB): 122.32, device memory used/total (GB): 70.69/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194638)[0m DEBUG:2025-05-23 08:26:01,703:update_actor After update_actor, memory allocated (GB): 90.29, memory reserved (GB): 91.61, device memory used/total (GB): 39.70/139.81
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:25:57,770:megatron actor After update_policy, memory allocated (GB): 121.92, memory reserved (GB): 122.89, device memory used/total (GB): 71.20/139.81[32m [repeated 7x across cluster][0m
+[36m(TaskRunner pid=2191279)[0m 
+Training Progress:   1%|          | 3/290 [27:39<43:51:58, 550.24s/it]
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:26:03,134:generate_sequences Before generate_sequences, memory allocated (GB): 90.25, memory reserved (GB): 91.53, device memory used/total (GB): 39.84/139.81
+[36m(WorkerDict pid=2194639)[0m INFO:2025-05-23 08:26:11,070:vLLM load weights, loaded_params: 849
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:26:02,630:update_actor After update_actor, memory allocated (GB): 90.26, memory reserved (GB): 91.43, device memory used/total (GB): 39.42/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:26:03,136:generate_sequences Before generate_sequences, memory allocated (GB): 90.27, memory reserved (GB): 91.22, device memory used/total (GB): 39.39/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194638)[0m DEBUG:2025-05-23 08:33:21,691:generate_sequences After generate_sequences, memory allocated (GB): 90.26, memory reserved (GB): 91.57, device memory used/total (GB): 39.66/139.81
+[36m(WorkerDict pid=2194640)[0m INFO:2025-05-23 08:26:11,071:vLLM load weights, loaded_params: 849[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194635)[0m DEBUG:2025-05-23 08:33:26,285:compute_log_prob Before compute_log_prob, memory allocated (GB): 90.22, memory reserved (GB): 91.34, device memory used/total (GB): 39.71/139.81
+[36m(WorkerDict pid=2194635)[0m DEBUG:2025-05-23 08:33:26,970:megatron actor Before compute_log_prob, memory allocated (GB): 93.96, memory reserved (GB): 95.05, device memory used/total (GB): 43.42/139.81
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:33:22,102:generate_sequences After generate_sequences, memory allocated (GB): 90.23, memory reserved (GB): 91.39, device memory used/total (GB): 39.38/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:33:49,847:megatron actor After compute_log_prob, memory allocated (GB): 93.97, memory reserved (GB): 94.67, device memory used/total (GB): 42.98/139.81
+[36m(WorkerDict pid=2194641)[0m DEBUG:2025-05-23 08:33:26,681:compute_log_prob Before compute_log_prob, memory allocated (GB): 90.27, memory reserved (GB): 91.32, device memory used/total (GB): 37.41/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:33:27,281:megatron actor Before compute_log_prob, memory allocated (GB): 94.01, memory reserved (GB): 94.89, device memory used/total (GB): 43.06/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:33:52,483:compute_log_prob After compute_log_prob, memory allocated (GB): 90.23, memory reserved (GB): 90.97, device memory used/total (GB): 39.28/139.81
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:33:57,563:compute_ref_log_prob Before compute_ref_log_prob, memory allocated (GB): 90.22, memory reserved (GB): 91.00, device memory used/total (GB): 38.99/139.81
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:33:49,864:megatron actor After compute_log_prob, memory allocated (GB): 93.99, memory reserved (GB): 94.53, device memory used/total (GB): 42.70/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:33:52,839:compute_log_prob After compute_log_prob, memory allocated (GB): 90.22, memory reserved (GB): 91.00, device memory used/total (GB): 38.99/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:33:58,504:megatron actor Before compute_log_prob, memory allocated (GB): 100.61, memory reserved (GB): 100.98, device memory used/total (GB): 48.97/139.81
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:33:57,806:compute_ref_log_prob Before compute_ref_log_prob, memory allocated (GB): 90.25, memory reserved (GB): 94.53, device memory used/total (GB): 42.70/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:34:18,985:megatron actor After compute_log_prob, memory allocated (GB): 100.60, memory reserved (GB): 101.08, device memory used/total (GB): 49.39/139.81
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:33:58,801:megatron actor Before compute_log_prob, memory allocated (GB): 100.64, memory reserved (GB): 101.02, device memory used/total (GB): 49.19/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194641)[0m DEBUG:2025-05-23 08:34:18,997:megatron actor After compute_log_prob, memory allocated (GB): 100.62, memory reserved (GB): 101.00, device memory used/total (GB): 47.09/139.81
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:34:19,987:compute_ref_log_prob After compute_ref_log_prob, memory allocated (GB): 90.24, memory reserved (GB): 91.01, device memory used/total (GB): 39.32/139.81
+[36m(WorkerDict pid=2194635)[0m DEBUG:2025-05-23 08:34:22,486:update_actor Before update_actor, memory allocated (GB): 90.21, memory reserved (GB): 90.96, device memory used/total (GB): 39.33/139.81
+[36m(WorkerDict pid=2194634)[0m DEBUG:2025-05-23 08:34:24,967:megatron actor Before update_policy, memory allocated (GB): 121.88, memory reserved (GB): 122.30, device memory used/total (GB): 70.29/139.81
+[36m(WorkerDict pid=2194637)[0m DEBUG:2025-05-23 08:34:19,135:megatron actor After compute_log_prob, memory allocated (GB): 100.60, memory reserved (GB): 101.03, device memory used/total (GB): 49.52/139.81[32m [repeated 6x across cluster][0m
+[36m(WorkerDict pid=2194636)[0m DEBUG:2025-05-23 08:34:20,246:compute_ref_log_prob After compute_ref_log_prob, memory allocated (GB): 90.24, memory reserved (GB): 90.95, device memory used/total (GB): 39.11/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=1806689, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/torch/autograd/graph.py:823: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /pytorch/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:62.)
+[36m(WorkerDict pid=1806689, ip=[PRIVATE_IP])[0m   return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:34:22,833:update_actor Before update_actor, memory allocated (GB): 90.22, memory reserved (GB): 94.54, device memory used/total (GB): 42.71/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:34:25,346:megatron actor Before update_policy, memory allocated (GB): 121.89, memory reserved (GB): 122.38, device memory used/total (GB): 70.55/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194638)[0m DEBUG:2025-05-23 08:35:19,330:megatron actor After update_policy, memory allocated (GB): 121.87, memory reserved (GB): 122.79, device memory used/total (GB): 70.87/139.81
+[36m(WorkerDict pid=1821694, ip=[PRIVATE_IP])[0m /usr/local/lib/python3.10/dist-packages/torch/autograd/graph.py:823: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /pytorch/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:62.)[32m [repeated 15x across cluster][0m
+[36m(WorkerDict pid=1821694, ip=[PRIVATE_IP])[0m   return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass[32m [repeated 15x across cluster][0m
+[36m(WorkerDict pid=2194638)[0m DEBUG:2025-05-23 08:35:23,692:update_actor After update_actor, memory allocated (GB): 90.24, memory reserved (GB): 91.44, device memory used/total (GB): 39.53/139.81
+[36m(TaskRunner pid=2191279)[0m 
+Training Progress:   1%|▏         | 4/290 [37:00<44:04:36, 554.81s/it]
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:35:19,500:megatron actor After update_policy, memory allocated (GB): 121.87, memory reserved (GB): 122.62, device memory used/total (GB): 70.93/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m DEBUG:2025-05-23 08:35:24,971:generate_sequences Before generate_sequences, memory allocated (GB): 90.20, memory reserved (GB): 91.26, device memory used/total (GB): 39.58/139.81
+[36m(WorkerDict pid=2194639)[0m INFO:2025-05-23 08:35:32,821:vLLM load weights, loaded_params: 849
+[36m(WorkerDict pid=2194636)[0m DEBUG:2025-05-23 08:35:24,254:update_actor After update_actor, memory allocated (GB): 90.24, memory reserved (GB): 91.21, device memory used/total (GB): 39.38/139.81[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m DEBUG:2025-05-23 08:35:24,973:generate_sequences Before generate_sequences, memory allocated (GB): 90.22, memory reserved (GB): 91.37, device memory used/total (GB): 39.54/139.81[32m [repeated 7x across cluster][0m

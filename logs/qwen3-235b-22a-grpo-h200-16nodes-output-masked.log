@@ -1,0 +1,775 @@
+[2025-05-23 07:40:11] [INFO] VERL_RUN_SCRIPT_PATH is set to: '/DATA_PATH/grpo.git/verl/qwen_moe_large_mcore.sh'
+[2025-05-23 07:40:11] [INFO] SLURM_NNODES: 16
+[2025-05-23 07:40:11] [INFO] SLURM_JOB_NUM_NODES: 16
+[2025-05-23 07:40:11] [INFO] EXPECTED_TOTAL_NODES set to: 16
+[2025-05-23 07:40:11] [INFO] Fetching node list...
+[2025-05-23 07:40:11] [INFO] Node list: [HOSTNAME] [HOSTNAME] [HOSTNAME] [HOSTNAME] [HOSTNAME] [HOSTNAME] [HOSTNAME] [HOSTNAME] [HOSTNAME] [HOSTNAME] [HOSTNAME] [HOSTNAME] [HOSTNAME] [HOSTNAME] [HOSTNAME] [HOSTNAME]
+[2025-05-23 07:40:11] [INFO] Container workdir: /DATA_PATH//verl.git
+[2025-05-23 07:40:11] [INFO] Head node designated: [HOSTNAME]
+[2025-05-23 07:40:11] [INFO] Fetching IP address for head node [HOSTNAME]...
+[2025-05-23 07:40:11] [INFO] Raw IP address for [HOSTNAME]: '[PRIVATE_IP]'
+[2025-05-23 07:40:11] [INFO] Ray head address configured: [PRIVATE_IP]:6379 (Port: 6379)
+SHELL=/bin/bash
+SLURM_GPUS_PER_NODE=8
+UV_CACHE_DIR=/DATA_PATH//cache/uv
+COLORTERM=truecolor
+SLURM_JOB_USER=USER
+SLURM_TASKS_PER_NODE=1(x16)
+SLURM_JOB_UID=20001
+EXPECTED_TOTAL_NODES=16
+SLURM_EXPORT_ENV=ALL,VERL_RUN_SCRIPT_PATH=/DATA_PATH/grpo.git/verl/qwen_moe_large_mcore.sh
+TERM_PROGRAM_VERSION=0.50.5
+SLURM_TASK_PID=2182693
+SLURM_JOB_GPUS=0,1,2,3,4,5,6,7
+SLURM_LOCALID=0
+SLURM_SUBMIT_DIR=/DATA_PATH
+HOSTNAME=[HOSTNAME]
+SLURMD_NODENAME=[HOSTNAME]
+SLURM_JOB_START_TIME=1747986008
+HYDRA_LAUNCHER_EXTRA_ARGS=--external-launcher
+SLURM_CLUSTER_NAME=ovis
+SLURM_JOB_END_TIME=1755762011
+BASE_DIR=/DATA_PATH/
+SLURM_CPUS_ON_NODE=96
+SLURM_JOB_CPUS_PER_NODE=96(x16)
+VLLM_CACHE_ROOT=/DATA_PATH//cache/vllm
+SLURM_GPUS_ON_NODE=8
+PRTE_MCA_plm_slurm_args=--external-launcher
+PWD=/DATA_PATH
+SLURM_GTIDS=0
+LOGNAME=USER
+XDG_SESSION_TYPE=tty
+SLURM_JOB_PARTITION=hpc
+MODULESHOME=/usr/share/modules
+CYCLECLOUD_HOME=/opt/cycle/jetpack
+MANPATH=:
+ROCR_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
+NCCL_DEBUG=INFO
+SLURM_JOB_NUM_NODES=16
+SLURM_JOBID=261
+I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS=--external-launcher
+IP_HEAD=[PRIVATE_IP]:6379
+MOTD_SHOWN=pam
+HEAD_PORT=6379
+HOME=/HOME
+LANG=C.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+SLURM_PROCID=0
+SSL_CERT_DIR=/usr/lib/ssl/certs
+TMPDIR=/tmp
+SLURM_NTASKS=16
+SLURM_TOPOLOGY_ADDR=[HOSTNAME]
+SSH_CONNECTION=[PRIVATE_IP] 38008 [PRIVATE_IP] 22
+TRITON_CACHE_DIR=/DATA_PATH//cache/triton
+ZE_AFFINITY_MASK=0,1,2,3,4,5,6,7
+HYDRA_BOOTSTRAP=slurm
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
+SGX_AESM_ADDR=1
+HF_HOME=/DATA_PATH//cache/hf
+LESSCLOSE=/usr/bin/lesspipe %s %s
+XDG_SESSION_CLASS=user
+SLURM_MEM_PER_NODE=1740800
+TERM=xterm-256color
+ZES_ENABLE_SYSMAN=1
+TORCH_NCCL_ASYNC_ERROR_HANDLING=1
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=USER
+SLURM_NODELIST=ovis-hpc-[1-16]
+VSCODE_GIT_IPC_HANDLE=/run/user/20001/vscode-git-dc0c74a15a.sock
+ENVIRONMENT=BATCH
+GPU_DEVICE_ORDINAL=0,1,2,3,4,5,6,7
+LOADEDMODULES=
+SLURM_PRIO_PROCESS=0
+SLURM_NPROCS=16
+NCCL_IB_TIMEOUT=24
+SHLVL=3
+SLURM_NNODES=16
+CUDA_DEVICE_MAX_CONNECTIONS=1
+XDG_SESSION_ID=1310
+SLURM_SUBMIT_HOST=ovis-login-1
+ROLLOUT_NAME=vllm
+LD_LIBRARY_PATH=:/usr/local/cuda/lib64:/usr/local/cuda/lib64
+XDG_RUNTIME_DIR=/run/user/20001
+SLURM_JOB_ID=261
+SSL_CERT_FILE=/usr/lib/ssl/certs/ca-certificates.crt
+SLURM_NODEID=0
+FLASHINFER_WORKSPACE_BASE=/DATA_PATH//cache/flashinfer
+SSH_CLIENT=[PRIVATE_IP] 38008 22
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+SLURM_CONF=/etc/slurm/slurm.conf
+BROWSER=/HOME/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/bin/helpers/browser.sh
+PATH=/HOME/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/bin/remote-cli:/HOME/.local/bin:/HOME/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/cycle/jetpack/bin:/usr/local/cuda/bin:/opt/cycle/jetpack/bin:/HOME/.fzf/bin:/usr/local/cuda/bin
+SLURM_JOB_NAME=qwen-235b-grpo-megatron-charlie
+MODULEPATH=/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles
+CYCLECLOUD_BOOTSTRAP=/opt/cycle/jetpack/system/bootstrap
+SLURM_NTASKS_PER_NODE=1
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/20001/bus
+VERL_RUN_SCRIPT_PATH=/DATA_PATH/grpo.git/verl/qwen_moe_large_mcore.sh
+MAIL=/var/mail/USER
+OMPI_MCA_plm_slurm_args=--external-launcher
+SLURM_JOB_GID=20001
+SLURM_GET_USER_ENV=1
+CONFIG_DIR_PATH=/DATA_PATH//grpo.git/verl/
+OLDPWD=/DATA_PATH/verl.git
+HEAD_NODE_IP=[PRIVATE_IP]
+NCCL_TOPO_FILE=/opt/microsoft/ndv5-topo.xml
+SLURM_JOB_NODELIST=ovis-hpc-[1-16]
+MODULES_CMD=/usr/lib/x86_64-linux-gnu/modulecmd.tcl
+TERM_PROGRAM=vscode
+I_MPI_HYDRA_BOOTSTRAP=slurm
+VSCODE_IPC_HOOK_CLI=/run/user/20001/vscode-ipc-0b3c3ab6-0b58-4e2c-a266-c35b490356d4.sock
+BASH_FUNC_ml%%=() {  module ml "$@"
+}
+BASH_FUNC_module%%=() {  eval `/usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl bash "$@"`;
+ _mlstatus=$?;
+ return $_mlstatus
+}
+_=/usr/bin/printenv
+[2025-05-23 07:40:11] [INFO] Starting HEAD node script at [HOSTNAME] which will manage Ray head, wait for workers, and launch the application.
+[2025-05-23 07:40:11] [INFO] Number of worker nodes to start: 15
+Starting WORKER 1 at [HOSTNAME]
+Starting WORKER 2 at [HOSTNAME]
+Starting WORKER 3 at [HOSTNAME]
+Starting WORKER 4 at [HOSTNAME]
+Starting WORKER 5 at [HOSTNAME]
+Starting WORKER 6 at [HOSTNAME]
+Starting WORKER 7 at [HOSTNAME]
+Starting WORKER 8 at [HOSTNAME]
+Starting WORKER 9 at [HOSTNAME]
+Starting WORKER 10 at [HOSTNAME]
+Starting WORKER 11 at [HOSTNAME]
+Starting WORKER 12 at [HOSTNAME]
+Starting WORKER 13 at [HOSTNAME]
+Starting WORKER 14 at [HOSTNAME]
+Starting WORKER 15 at [HOSTNAME]
+Current directory: /DATA_PATH/verl.git. Installing project in editable mode with vllm extras from /DATA_PATH/verl.git on worker [HOSTNAME]...
+Current directory: /DATA_PATH/verl.git. Installing project in editable mode with vllm extras from /DATA_PATH/verl.git on worker [HOSTNAME]...
+Current directory: /DATA_PATH/verl.git. Installing project in editable mode with vllm extras from /DATA_PATH/verl.git on worker [HOSTNAME]...
+Current directory: /DATA_PATH/verl.git. Installing project in editable mode with vllm extras from /DATA_PATH/verl.git on worker [HOSTNAME]...
+Current directory: /DATA_PATH/verl.git. Installing project in editable mode with vllm extras from /DATA_PATH/verl.git on worker [HOSTNAME]...
+Current directory: /DATA_PATH/verl.git. Installing project in editable mode with vllm extras from /DATA_PATH/verl.git on worker [HOSTNAME]...
+Current directory: /DATA_PATH/verl.git. Installing project in editable mode with vllm extras from /DATA_PATH/verl.git on worker [HOSTNAME]...
+[$(date '+%Y-%m-%d %H:%M:%S')] [INFO] [srun-head-bootstrap] Current directory in container: $(pwd). Running script: /DATA_PATH/grpo.git/verl/qwen_moe_large_mcore.sh
+Current directory: /DATA_PATH/verl.git. Installing project in editable mode with vllm extras from /DATA_PATH/verl.git on worker [HOSTNAME]...
+Current directory: /DATA_PATH/verl.git. Installing project in editable mode with vllm extras from /DATA_PATH/verl.git on worker [HOSTNAME]...
+Current directory: /DATA_PATH/verl.git. Installing project in editable mode with vllm extras from /DATA_PATH/verl.git on worker [HOSTNAME]...
+Current directory: /DATA_PATH/verl.git. Installing project in editable mode with vllm extras from /DATA_PATH/verl.git on worker [HOSTNAME]...
+Current directory: /DATA_PATH/verl.git. Installing project in editable mode with vllm extras from /DATA_PATH/verl.git on worker [HOSTNAME]...
+Current directory: /DATA_PATH/verl.git. Installing project in editable mode with vllm extras from /DATA_PATH/verl.git on worker [HOSTNAME]...
+Current directory: /DATA_PATH/verl.git. Installing project in editable mode with vllm extras from /DATA_PATH/verl.git on worker [HOSTNAME]...
+Current directory: /DATA_PATH/verl.git. Installing project in editable mode with vllm extras from /DATA_PATH/verl.git on worker [HOSTNAME]...
+[2025-05-23 07:40:35] [INFO] [run_head_node.sh] Current directory: /DATA_PATH/verl.git
+[2025-05-23 07:40:35] [INFO] [run_head_node.sh] Installing project in editable mode with vllm extras...
+Installation complete. Starting Ray worker node on [HOSTNAME]...
+Installation complete. Starting Ray worker node on [HOSTNAME]...
+Installation complete. Starting Ray worker node on [HOSTNAME]...
+Installation complete. Starting Ray worker node on [HOSTNAME]...
+Installation complete. Starting Ray worker node on [HOSTNAME]...
+Installation complete. Starting Ray worker node on [HOSTNAME]...
+Installation complete. Starting Ray worker node on [HOSTNAME]...
+Installation complete. Starting Ray worker node on [HOSTNAME]...
+Installation complete. Starting Ray worker node on [HOSTNAME]...
+Installation complete. Starting Ray worker node on [HOSTNAME]...
+Installation complete. Starting Ray worker node on [HOSTNAME]...
+Installation complete. Starting Ray worker node on [HOSTNAME]...
+Installation complete. Starting Ray worker node on [HOSTNAME]...
+Installation complete. Starting Ray worker node on [HOSTNAME]...
+Installation complete. Starting Ray worker node on [HOSTNAME]...
+[2025-05-23 07:40:53] [INFO] [run_head_node.sh] Installation complete.
+[2025-05-23 07:40:53] [INFO] [run_head_node.sh] Starting Ray head node on [PRIVATE_IP]:6379 with 8 GPUs...
+[2025-05-23 07:40:53] [INFO] [run_head_node.sh] Ray head started in background with PID 2184280.
+[2025-05-23 07:40:53] [INFO] [run_head_node.sh] Waiting for Ray head node at [PRIVATE_IP]:6379 to be ready...
+[2025-05-23 07:40:55] [INFO] [run_head_node.sh] Ray head not ready yet (Attempt 1/60). Retrying in 10s...
+2025-05-23 07:40:52,473	INFO scripts.py:1152 -- [37mLocal node IP[39m: [1m[PRIVATE_IP][22m
+2025-05-23 07:40:55,406	SUCC scripts.py:1168 -- [32m--------------------[39m
+2025-05-23 07:40:55,406	SUCC scripts.py:1169 -- [32mRay runtime started.[39m
+2025-05-23 07:40:55,406	SUCC scripts.py:1170 -- [32m--------------------[39m
+2025-05-23 07:40:55,406	INFO scripts.py:1172 -- To terminate the Ray runtime, run
+2025-05-23 07:40:55,406	INFO scripts.py:1173 -- [1m  ray stop[22m
+2025-05-23 07:40:55,407	INFO scripts.py:1181 -- [36m[1m--block[22m[39m
+2025-05-23 07:40:55,407	INFO scripts.py:1182 -- This command will now block forever until terminated by a signal.
+2025-05-23 07:40:55,407	INFO scripts.py:1185 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2025-05-23 07:40:52,190	INFO scripts.py:1152 -- [37mLocal node IP[39m: [1m[PRIVATE_IP][22m
+2025-05-23 07:40:56,422	SUCC scripts.py:1168 -- [32m--------------------[39m
+2025-05-23 07:40:56,422	SUCC scripts.py:1169 -- [32mRay runtime started.[39m
+2025-05-23 07:40:56,422	SUCC scripts.py:1170 -- [32m--------------------[39m
+2025-05-23 07:40:56,422	INFO scripts.py:1172 -- To terminate the Ray runtime, run
+2025-05-23 07:40:56,422	INFO scripts.py:1173 -- [1m  ray stop[22m
+2025-05-23 07:40:56,423	INFO scripts.py:1181 -- [36m[1m--block[22m[39m
+2025-05-23 07:40:56,423	INFO scripts.py:1182 -- This command will now block forever until terminated by a signal.
+2025-05-23 07:40:56,423	INFO scripts.py:1185 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2025-05-23 07:40:52,721	INFO scripts.py:1152 -- [37mLocal node IP[39m: [1m[PRIVATE_IP][22m
+2025-05-23 07:40:56,518	SUCC scripts.py:1168 -- [32m--------------------[39m
+2025-05-23 07:40:56,519	SUCC scripts.py:1169 -- [32mRay runtime started.[39m
+2025-05-23 07:40:56,519	SUCC scripts.py:1170 -- [32m--------------------[39m
+2025-05-23 07:40:56,519	INFO scripts.py:1172 -- To terminate the Ray runtime, run
+2025-05-23 07:40:56,519	INFO scripts.py:1173 -- [1m  ray stop[22m
+2025-05-23 07:40:56,519	INFO scripts.py:1181 -- [36m[1m--block[22m[39m
+2025-05-23 07:40:56,519	INFO scripts.py:1182 -- This command will now block forever until terminated by a signal.
+2025-05-23 07:40:56,519	INFO scripts.py:1185 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2025-05-23 07:40:51,828	INFO scripts.py:1152 -- [37mLocal node IP[39m: [1m[PRIVATE_IP][22m
+2025-05-23 07:40:56,791	SUCC scripts.py:1168 -- [32m--------------------[39m
+2025-05-23 07:40:56,791	SUCC scripts.py:1169 -- [32mRay runtime started.[39m
+2025-05-23 07:40:56,791	SUCC scripts.py:1170 -- [32m--------------------[39m
+2025-05-23 07:40:56,791	INFO scripts.py:1172 -- To terminate the Ray runtime, run
+2025-05-23 07:40:56,791	INFO scripts.py:1173 -- [1m  ray stop[22m
+2025-05-23 07:40:56,791	INFO scripts.py:1181 -- [36m[1m--block[22m[39m
+2025-05-23 07:40:56,791	INFO scripts.py:1182 -- This command will now block forever until terminated by a signal.
+2025-05-23 07:40:56,791	INFO scripts.py:1185 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2025-05-23 07:40:52,002	INFO scripts.py:1152 -- [37mLocal node IP[39m: [1m[PRIVATE_IP][22m
+2025-05-23 07:40:57,129	SUCC scripts.py:1168 -- [32m--------------------[39m
+2025-05-23 07:40:57,129	SUCC scripts.py:1169 -- [32mRay runtime started.[39m
+2025-05-23 07:40:57,129	SUCC scripts.py:1170 -- [32m--------------------[39m
+2025-05-23 07:40:57,129	INFO scripts.py:1172 -- To terminate the Ray runtime, run
+2025-05-23 07:40:57,129	INFO scripts.py:1173 -- [1m  ray stop[22m
+2025-05-23 07:40:57,129	INFO scripts.py:1181 -- [36m[1m--block[22m[39m
+2025-05-23 07:40:57,129	INFO scripts.py:1182 -- This command will now block forever until terminated by a signal.
+2025-05-23 07:40:57,129	INFO scripts.py:1185 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2025-05-23 07:40:52,189	INFO scripts.py:1152 -- [37mLocal node IP[39m: [1m[PRIVATE_IP][22m
+2025-05-23 07:40:57,530	SUCC scripts.py:1168 -- [32m--------------------[39m
+2025-05-23 07:40:57,531	SUCC scripts.py:1169 -- [32mRay runtime started.[39m
+2025-05-23 07:40:57,531	SUCC scripts.py:1170 -- [32m--------------------[39m
+2025-05-23 07:40:57,531	INFO scripts.py:1172 -- To terminate the Ray runtime, run
+2025-05-23 07:40:57,531	INFO scripts.py:1173 -- [1m  ray stop[22m
+2025-05-23 07:40:57,531	INFO scripts.py:1181 -- [36m[1m--block[22m[39m
+2025-05-23 07:40:57,531	INFO scripts.py:1182 -- This command will now block forever until terminated by a signal.
+2025-05-23 07:40:57,531	INFO scripts.py:1185 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2025-05-23 07:40:52,086	INFO scripts.py:1152 -- [37mLocal node IP[39m: [1m[PRIVATE_IP][22m
+2025-05-23 07:40:57,560	SUCC scripts.py:1168 -- [32m--------------------[39m
+2025-05-23 07:40:57,561	SUCC scripts.py:1169 -- [32mRay runtime started.[39m
+2025-05-23 07:40:57,561	SUCC scripts.py:1170 -- [32m--------------------[39m
+2025-05-23 07:40:57,561	INFO scripts.py:1172 -- To terminate the Ray runtime, run
+2025-05-23 07:40:57,561	INFO scripts.py:1173 -- [1m  ray stop[22m
+2025-05-23 07:40:57,561	INFO scripts.py:1181 -- [36m[1m--block[22m[39m
+2025-05-23 07:40:57,561	INFO scripts.py:1182 -- This command will now block forever until terminated by a signal.
+2025-05-23 07:40:57,561	INFO scripts.py:1185 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2025-05-23 07:40:51,938	INFO scripts.py:1152 -- [37mLocal node IP[39m: [1m[PRIVATE_IP][22m
+2025-05-23 07:40:57,704	SUCC scripts.py:1168 -- [32m--------------------[39m
+2025-05-23 07:40:57,705	SUCC scripts.py:1169 -- [32mRay runtime started.[39m
+2025-05-23 07:40:57,705	SUCC scripts.py:1170 -- [32m--------------------[39m
+2025-05-23 07:40:57,705	INFO scripts.py:1172 -- To terminate the Ray runtime, run
+2025-05-23 07:40:57,705	INFO scripts.py:1173 -- [1m  ray stop[22m
+2025-05-23 07:40:57,705	INFO scripts.py:1181 -- [36m[1m--block[22m[39m
+2025-05-23 07:40:57,705	INFO scripts.py:1182 -- This command will now block forever until terminated by a signal.
+2025-05-23 07:40:57,705	INFO scripts.py:1185 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2025-05-23 07:40:52,097	INFO scripts.py:1152 -- [37mLocal node IP[39m: [1m[PRIVATE_IP][22m
+2025-05-23 07:40:57,704	SUCC scripts.py:1168 -- [32m--------------------[39m
+2025-05-23 07:40:57,704	SUCC scripts.py:1169 -- [32mRay runtime started.[39m
+2025-05-23 07:40:57,704	SUCC scripts.py:1170 -- [32m--------------------[39m
+2025-05-23 07:40:57,704	INFO scripts.py:1172 -- To terminate the Ray runtime, run
+2025-05-23 07:40:57,704	INFO scripts.py:1173 -- [1m  ray stop[22m
+2025-05-23 07:40:57,704	INFO scripts.py:1181 -- [36m[1m--block[22m[39m
+2025-05-23 07:40:57,704	INFO scripts.py:1182 -- This command will now block forever until terminated by a signal.
+2025-05-23 07:40:57,704	INFO scripts.py:1185 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2025-05-23 07:40:51,905	INFO scripts.py:1152 -- [37mLocal node IP[39m: [1m[PRIVATE_IP][22m
+2025-05-23 07:40:57,804	SUCC scripts.py:1168 -- [32m--------------------[39m
+2025-05-23 07:40:57,804	SUCC scripts.py:1169 -- [32mRay runtime started.[39m
+2025-05-23 07:40:57,804	SUCC scripts.py:1170 -- [32m--------------------[39m
+2025-05-23 07:40:57,804	INFO scripts.py:1172 -- To terminate the Ray runtime, run
+2025-05-23 07:40:57,804	INFO scripts.py:1173 -- [1m  ray stop[22m
+2025-05-23 07:40:57,805	INFO scripts.py:1181 -- [36m[1m--block[22m[39m
+2025-05-23 07:40:57,805	INFO scripts.py:1182 -- This command will now block forever until terminated by a signal.
+2025-05-23 07:40:57,805	INFO scripts.py:1185 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2025-05-23 07:40:52,386	INFO scripts.py:1152 -- [37mLocal node IP[39m: [1m[PRIVATE_IP][22m
+2025-05-23 07:40:57,807	SUCC scripts.py:1168 -- [32m--------------------[39m
+2025-05-23 07:40:57,807	SUCC scripts.py:1169 -- [32mRay runtime started.[39m
+2025-05-23 07:40:57,807	SUCC scripts.py:1170 -- [32m--------------------[39m
+2025-05-23 07:40:57,808	INFO scripts.py:1172 -- To terminate the Ray runtime, run
+2025-05-23 07:40:57,808	INFO scripts.py:1173 -- [1m  ray stop[22m
+2025-05-23 07:40:57,808	INFO scripts.py:1181 -- [36m[1m--block[22m[39m
+2025-05-23 07:40:57,808	INFO scripts.py:1182 -- This command will now block forever until terminated by a signal.
+2025-05-23 07:40:57,808	INFO scripts.py:1185 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2025-05-23 07:40:54,911	INFO usage_lib.py:467 -- Usage stats collection is enabled by default without user confirmation because this terminal is detected to be non-interactive. To disable this, add `--disable-usage-stats` to the command that starts the cluster, or run the following command: `ray disable-usage-stats` before starting the cluster. See https://docs.ray.io/en/master/cluster/usage-stats.html for more details.
+2025-05-23 07:40:54,911	INFO scripts.py:971 -- [37mLocal node IP[39m: [1m[PRIVATE_IP][22m
+2025-05-23 07:40:57,858	SUCC scripts.py:1007 -- [32m--------------------[39m
+2025-05-23 07:40:57,858	SUCC scripts.py:1008 -- [32mRay runtime started.[39m
+2025-05-23 07:40:57,858	SUCC scripts.py:1009 -- [32m--------------------[39m
+2025-05-23 07:40:57,859	INFO scripts.py:1011 -- [36mNext steps[39m
+2025-05-23 07:40:57,859	INFO scripts.py:1014 -- To add another node to this Ray cluster, run
+2025-05-23 07:40:57,859	INFO scripts.py:1017 -- [1m  ray start --address='[PRIVATE_IP]:6379'[22m
+2025-05-23 07:40:57,859	INFO scripts.py:1026 -- To connect to this Ray cluster:
+2025-05-23 07:40:57,859	INFO scripts.py:1028 -- [35mimport[39m[26m ray
+2025-05-23 07:40:57,859	INFO scripts.py:1029 -- ray[35m.[39m[26minit(_node_ip_address[35m=[39m[26m[33m'[PRIVATE_IP]'[39m[26m)
+2025-05-23 07:40:57,859	INFO scripts.py:1041 -- To submit a Ray job using the Ray Jobs CLI:
+2025-05-23 07:40:57,859	INFO scripts.py:1042 -- [1m  RAY_ADDRESS='http://127.0.0.1:8265' ray job submit --working-dir . -- python my_script.py[22m
+2025-05-23 07:40:57,859	INFO scripts.py:1051 -- See https://docs.ray.io/en/latest/cluster/running-applications/job-submission/index.html 
+2025-05-23 07:40:57,859	INFO scripts.py:1055 -- for more information on submitting Ray jobs to the Ray cluster.
+2025-05-23 07:40:57,859	INFO scripts.py:1060 -- To terminate the Ray runtime, run
+2025-05-23 07:40:57,859	INFO scripts.py:1061 -- [1m  ray stop[22m
+2025-05-23 07:40:57,859	INFO scripts.py:1064 -- To view the status of the cluster, use
+2025-05-23 07:40:57,859	INFO scripts.py:1065 --   [1mray status[22m[26m
+2025-05-23 07:40:57,859	INFO scripts.py:1069 -- To monitor and debug Ray, view the dashboard at 
+2025-05-23 07:40:57,859	INFO scripts.py:1070 --   [1m127.0.0.1:8265[22m[26m
+2025-05-23 07:40:57,859	INFO scripts.py:1077 -- [4mIf connection to the dashboard fails, check your firewall settings and network configuration.[24m
+2025-05-23 07:40:57,859	INFO scripts.py:1181 -- [36m[1m--block[22m[39m
+2025-05-23 07:40:57,859	INFO scripts.py:1182 -- This command will now block forever until terminated by a signal.
+2025-05-23 07:40:57,859	INFO scripts.py:1185 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2025-05-23 07:40:52,393	INFO scripts.py:1152 -- [37mLocal node IP[39m: [1m[PRIVATE_IP][22m
+2025-05-23 07:40:58,284	SUCC scripts.py:1168 -- [32m--------------------[39m
+2025-05-23 07:40:58,285	SUCC scripts.py:1169 -- [32mRay runtime started.[39m
+2025-05-23 07:40:58,285	SUCC scripts.py:1170 -- [32m--------------------[39m
+2025-05-23 07:40:58,285	INFO scripts.py:1172 -- To terminate the Ray runtime, run
+2025-05-23 07:40:58,285	INFO scripts.py:1173 -- [1m  ray stop[22m
+2025-05-23 07:40:58,285	INFO scripts.py:1181 -- [36m[1m--block[22m[39m
+2025-05-23 07:40:58,285	INFO scripts.py:1182 -- This command will now block forever until terminated by a signal.
+2025-05-23 07:40:58,285	INFO scripts.py:1185 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2025-05-23 07:40:52,522	INFO scripts.py:1152 -- [37mLocal node IP[39m: [1m[PRIVATE_IP][22m
+2025-05-23 07:40:58,292	SUCC scripts.py:1168 -- [32m--------------------[39m
+2025-05-23 07:40:58,292	SUCC scripts.py:1169 -- [32mRay runtime started.[39m
+2025-05-23 07:40:58,292	SUCC scripts.py:1170 -- [32m--------------------[39m
+2025-05-23 07:40:58,292	INFO scripts.py:1172 -- To terminate the Ray runtime, run
+2025-05-23 07:40:58,292	INFO scripts.py:1173 -- [1m  ray stop[22m
+2025-05-23 07:40:58,292	INFO scripts.py:1181 -- [36m[1m--block[22m[39m
+2025-05-23 07:40:58,292	INFO scripts.py:1182 -- This command will now block forever until terminated by a signal.
+2025-05-23 07:40:58,292	INFO scripts.py:1185 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2025-05-23 07:40:52,355	INFO scripts.py:1152 -- [37mLocal node IP[39m: [1m[PRIVATE_IP][22m
+2025-05-23 07:40:58,725	SUCC scripts.py:1168 -- [32m--------------------[39m
+2025-05-23 07:40:58,726	SUCC scripts.py:1169 -- [32mRay runtime started.[39m
+2025-05-23 07:40:58,726	SUCC scripts.py:1170 -- [32m--------------------[39m
+2025-05-23 07:40:58,726	INFO scripts.py:1172 -- To terminate the Ray runtime, run
+2025-05-23 07:40:58,726	INFO scripts.py:1173 -- [1m  ray stop[22m
+2025-05-23 07:40:58,726	INFO scripts.py:1181 -- [36m[1m--block[22m[39m
+2025-05-23 07:40:58,726	INFO scripts.py:1182 -- This command will now block forever until terminated by a signal.
+2025-05-23 07:40:58,726	INFO scripts.py:1185 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2025-05-23 07:40:52,418	INFO scripts.py:1152 -- [37mLocal node IP[39m: [1m[PRIVATE_IP][22m
+2025-05-23 07:40:59,290	SUCC scripts.py:1168 -- [32m--------------------[39m
+2025-05-23 07:40:59,290	SUCC scripts.py:1169 -- [32mRay runtime started.[39m
+2025-05-23 07:40:59,290	SUCC scripts.py:1170 -- [32m--------------------[39m
+2025-05-23 07:40:59,290	INFO scripts.py:1172 -- To terminate the Ray runtime, run
+2025-05-23 07:40:59,290	INFO scripts.py:1173 -- [1m  ray stop[22m
+2025-05-23 07:40:59,291	INFO scripts.py:1181 -- [36m[1m--block[22m[39m
+2025-05-23 07:40:59,291	INFO scripts.py:1182 -- This command will now block forever until terminated by a signal.
+2025-05-23 07:40:59,291	INFO scripts.py:1185 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+[2025-05-23 07:41:06] [INFO] [run_head_node.sh] Ray head node at [PRIVATE_IP]:6379 is ready.
+[2025-05-23 07:41:06] [INFO] [run_head_node.sh] Waiting for 16 total nodes to join the Ray cluster (including head)...
+[2025-05-23 07:41:08] [INFO] [run_head_node.sh] Sufficient number of nodes (16/16) detected in the Ray cluster.
+[2025-05-23 07:41:08] [INFO] [run_head_node.sh] All 16 nodes are ready in the Ray cluster.
+[2025-05-23 07:41:08] [INFO] [run_head_node.sh] Launching main PPO training script...
+[36m(TaskRunner pid=2191279)[0m {'actor_rollout_ref': {'actor': {'checkpoint': {'contents': ['model', 'extra']},
+[36m(TaskRunner pid=2191279)[0m                                  'clip_ratio': 0.2,
+[36m(TaskRunner pid=2191279)[0m                                  'clip_ratio_c': 3.0,
+[36m(TaskRunner pid=2191279)[0m                                  'clip_ratio_high': 0.2,
+[36m(TaskRunner pid=2191279)[0m                                  'clip_ratio_low': 0.2,
+[36m(TaskRunner pid=2191279)[0m                                  'data_loader_seed': None,
+[36m(TaskRunner pid=2191279)[0m                                  'entropy_coeff': 0,
+[36m(TaskRunner pid=2191279)[0m                                  'kl_loss_coef': 0.001,
+[36m(TaskRunner pid=2191279)[0m                                  'kl_loss_type': 'low_var_kl',
+[36m(TaskRunner pid=2191279)[0m                                  'load_weight': True,
+[36m(TaskRunner pid=2191279)[0m                                  'loss_agg_mode': 'token-mean',
+[36m(TaskRunner pid=2191279)[0m                                  'megatron': {'context_parallel_size': 1,
+[36m(TaskRunner pid=2191279)[0m                                               'dist_checkpointing_path': '/DATA_PATH//models/Qwen3-235B-A22B-mcore',
+[36m(TaskRunner pid=2191279)[0m                                               'expert_model_parallel_size': 32,
+[36m(TaskRunner pid=2191279)[0m                                               'expert_tensor_parallel_size': 1,
+[36m(TaskRunner pid=2191279)[0m                                               'grad_offload': True,
+[36m(TaskRunner pid=2191279)[0m                                               'optimizer_offload': True,
+[36m(TaskRunner pid=2191279)[0m                                               'param_offload': True,
+[36m(TaskRunner pid=2191279)[0m                                               'pipeline_model_parallel_size': 2,
+[36m(TaskRunner pid=2191279)[0m                                               'seed': 1,
+[36m(TaskRunner pid=2191279)[0m                                               'sequence_parallel': True,
+[36m(TaskRunner pid=2191279)[0m                                               'tensor_model_parallel_size': 2,
+[36m(TaskRunner pid=2191279)[0m                                               'use_dist_checkpointing': True,
+[36m(TaskRunner pid=2191279)[0m                                               'use_distributed_optimizer': True,
+[36m(TaskRunner pid=2191279)[0m                                               'virtual_pipeline_model_parallel_size': None},
+[36m(TaskRunner pid=2191279)[0m                                  'optim': {'clip_grad': 1.0,
+[36m(TaskRunner pid=2191279)[0m                                            'lr': 1e-06,
+[36m(TaskRunner pid=2191279)[0m                                            'lr_warmup_steps': -1,
+[36m(TaskRunner pid=2191279)[0m                                            'lr_warmup_steps_ratio': 0.0,
+[36m(TaskRunner pid=2191279)[0m                                            'min_lr_ratio': None,
+[36m(TaskRunner pid=2191279)[0m                                            'total_training_steps': -1,
+[36m(TaskRunner pid=2191279)[0m                                            'warmup_style': 'constant',
+[36m(TaskRunner pid=2191279)[0m                                            'weight_decay': 0.01},
+[36m(TaskRunner pid=2191279)[0m                                  'ppo_epochs': 1,
+[36m(TaskRunner pid=2191279)[0m                                  'ppo_micro_batch_size': None,
+[36m(TaskRunner pid=2191279)[0m                                  'ppo_micro_batch_size_per_gpu': 1,
+[36m(TaskRunner pid=2191279)[0m                                  'ppo_mini_batch_size': 128,
+[36m(TaskRunner pid=2191279)[0m                                  'profile': {'profile_ranks': None,
+[36m(TaskRunner pid=2191279)[0m                                              'save_path': None,
+[36m(TaskRunner pid=2191279)[0m                                              'step_end': -1,
+[36m(TaskRunner pid=2191279)[0m                                              'step_start': -1,
+[36m(TaskRunner pid=2191279)[0m                                              'use_profile': False},
+[36m(TaskRunner pid=2191279)[0m                                  'shuffle': False,
+[36m(TaskRunner pid=2191279)[0m                                  'strategy': 'megatron',
+[36m(TaskRunner pid=2191279)[0m                                  'use_dynamic_bsz': False,
+[36m(TaskRunner pid=2191279)[0m                                  'use_kl_loss': True,
+[36m(TaskRunner pid=2191279)[0m                                  'use_torch_compile': True},
+[36m(TaskRunner pid=2191279)[0m                        'hybrid_engine': True,
+[36m(TaskRunner pid=2191279)[0m                        'model': {'enable_gradient_checkpointing': True,
+[36m(TaskRunner pid=2191279)[0m                                  'external_lib': None,
+[36m(TaskRunner pid=2191279)[0m                                  'gradient_checkpointing_kwargs': {'activations_checkpoint_granularity': None,
+[36m(TaskRunner pid=2191279)[0m                                                                    'activations_checkpoint_method': None,
+[36m(TaskRunner pid=2191279)[0m                                                                    'activations_checkpoint_num_layers': None},
+[36m(TaskRunner pid=2191279)[0m                                  'override_config': {},
+[36m(TaskRunner pid=2191279)[0m                                  'path': '/data/base_models/Qwen3-235B-A22B'},
+[36m(TaskRunner pid=2191279)[0m                        'ref': {'load_weight': True,
+[36m(TaskRunner pid=2191279)[0m                                'log_prob_micro_batch_size': None,
+[36m(TaskRunner pid=2191279)[0m                                'log_prob_micro_batch_size_per_gpu': 1,
+[36m(TaskRunner pid=2191279)[0m                                'megatron': {'context_parallel_size': 1,
+[36m(TaskRunner pid=2191279)[0m                                             'dist_checkpointing_path': '/DATA_PATH//models/Qwen3-235B-A22B-mcore',
+[36m(TaskRunner pid=2191279)[0m                                             'expert_model_parallel_size': 32,
+[36m(TaskRunner pid=2191279)[0m                                             'expert_tensor_parallel_size': 1,
+[36m(TaskRunner pid=2191279)[0m                                             'param_offload': True,
+[36m(TaskRunner pid=2191279)[0m                                             'pipeline_model_parallel_size': 2,
+[36m(TaskRunner pid=2191279)[0m                                             'seed': 1,
+[36m(TaskRunner pid=2191279)[0m                                             'sequence_parallel': True,
+[36m(TaskRunner pid=2191279)[0m                                             'tensor_model_parallel_size': 2,
+[36m(TaskRunner pid=2191279)[0m                                             'use_dist_checkpointing': True,
+[36m(TaskRunner pid=2191279)[0m                                             'use_distributed_optimizer': False,
+[36m(TaskRunner pid=2191279)[0m                                             'virtual_pipeline_model_parallel_size': None},
+[36m(TaskRunner pid=2191279)[0m                                'profile': {'profile_ranks': None,
+[36m(TaskRunner pid=2191279)[0m                                            'save_path': None,
+[36m(TaskRunner pid=2191279)[0m                                            'step_end': -1,
+[36m(TaskRunner pid=2191279)[0m                                            'step_start': -1,
+[36m(TaskRunner pid=2191279)[0m                                            'use_profile': False},
+[36m(TaskRunner pid=2191279)[0m                                'strategy': 'megatron',
+[36m(TaskRunner pid=2191279)[0m                                'use_torch_compile': True},
+[36m(TaskRunner pid=2191279)[0m                        'rollout': {'chat_scheduler': None,
+[36m(TaskRunner pid=2191279)[0m                                    'disable_log_stats': True,
+[36m(TaskRunner pid=2191279)[0m                                    'do_sample': True,
+[36m(TaskRunner pid=2191279)[0m                                    'dtype': 'bfloat16',
+[36m(TaskRunner pid=2191279)[0m                                    'enable_chunked_prefill': False,
+[36m(TaskRunner pid=2191279)[0m                                    'enforce_eager': True,
+[36m(TaskRunner pid=2191279)[0m                                    'engine_kwargs': {'swap_space': 32},
+[36m(TaskRunner pid=2191279)[0m                                    'free_cache_engine': True,
+[36m(TaskRunner pid=2191279)[0m                                    'gpu_memory_utilization': 0.75,
+[36m(TaskRunner pid=2191279)[0m                                    'ignore_eos': False,
+[36m(TaskRunner pid=2191279)[0m                                    'layer_name_map': {'gate_proj_layer_name': 'gate_up',
+[36m(TaskRunner pid=2191279)[0m                                                       'qkv_layer_name': 'qkv'},
+[36m(TaskRunner pid=2191279)[0m                                    'load_format': 'dummy_megatron',
+[36m(TaskRunner pid=2191279)[0m                                    'log_prob_micro_batch_size': None,
+[36m(TaskRunner pid=2191279)[0m                                    'log_prob_micro_batch_size_per_gpu': 1,
+[36m(TaskRunner pid=2191279)[0m                                    'max_model_len': 32768,
+[36m(TaskRunner pid=2191279)[0m                                    'max_num_batched_tokens': 4096,
+[36m(TaskRunner pid=2191279)[0m                                    'max_num_seqs': 1,
+[36m(TaskRunner pid=2191279)[0m                                    'mode': 'sync',
+[36m(TaskRunner pid=2191279)[0m                                    'multi_turn': {'enable': False,
+[36m(TaskRunner pid=2191279)[0m                                                   'format': 'chatml',
+[36m(TaskRunner pid=2191279)[0m                                                   'max_turns': None,
+[36m(TaskRunner pid=2191279)[0m                                                   'tool_config_path': None},
+[36m(TaskRunner pid=2191279)[0m                                    'n': 8,
+[36m(TaskRunner pid=2191279)[0m                                    'name': 'vllm',
+[36m(TaskRunner pid=2191279)[0m                                    'prompt_length': 32768,
+[36m(TaskRunner pid=2191279)[0m                                    'response_length': 4096,
+[36m(TaskRunner pid=2191279)[0m                                    'temperature': 1.0,
+[36m(TaskRunner pid=2191279)[0m                                    'tensor_model_parallel_size': 8,
+[36m(TaskRunner pid=2191279)[0m                                    'top_k': -1,
+[36m(TaskRunner pid=2191279)[0m                                    'top_p': 1,
+[36m(TaskRunner pid=2191279)[0m                                    'val_kwargs': {'do_sample': False,
+[36m(TaskRunner pid=2191279)[0m                                                   'n': 1,
+[36m(TaskRunner pid=2191279)[0m                                                   'temperature': 0,
+[36m(TaskRunner pid=2191279)[0m                                                   'top_k': -1,
+[36m(TaskRunner pid=2191279)[0m                                                   'top_p': 1.0}}},
+[36m(TaskRunner pid=2191279)[0m  'algorithm': {'adv_estimator': 'grpo',
+[36m(TaskRunner pid=2191279)[0m                'gamma': 1.0,
+[36m(TaskRunner pid=2191279)[0m                'kl_ctrl': {'horizon': 10000,
+[36m(TaskRunner pid=2191279)[0m                            'kl_coef': 0.001,
+[36m(TaskRunner pid=2191279)[0m                            'target_kl': 0.1,
+[36m(TaskRunner pid=2191279)[0m                            'type': 'fixed'},
+[36m(TaskRunner pid=2191279)[0m                'kl_penalty': 'kl',
+[36m(TaskRunner pid=2191279)[0m                'lam': 1.0,
+[36m(TaskRunner pid=2191279)[0m                'norm_adv_by_std_in_grpo': True,
+[36m(TaskRunner pid=2191279)[0m                'use_kl_in_reward': True},
+[36m(TaskRunner pid=2191279)[0m  'critic': {'checkpoint': {'contents': ['model', 'optimizer', 'extra']},
+[36m(TaskRunner pid=2191279)[0m             'cliprange_value': 0.5,
+[36m(TaskRunner pid=2191279)[0m             'data_loader_seed': None,
+[36m(TaskRunner pid=2191279)[0m             'kl_ctrl': {'kl_coef': 0.001, 'type': 'fixed'},
+[36m(TaskRunner pid=2191279)[0m             'load_weight': True,
+[36m(TaskRunner pid=2191279)[0m             'megatron': {'context_parallel_size': 1,
+[36m(TaskRunner pid=2191279)[0m                          'dist_checkpointing_path': None,
+[36m(TaskRunner pid=2191279)[0m                          'expert_model_parallel_size': 1,
+[36m(TaskRunner pid=2191279)[0m                          'expert_tensor_parallel_size': 'None',
+[36m(TaskRunner pid=2191279)[0m                          'grad_offload': False,
+[36m(TaskRunner pid=2191279)[0m                          'optimizer_offload': False,
+[36m(TaskRunner pid=2191279)[0m                          'param_offload': False,
+[36m(TaskRunner pid=2191279)[0m                          'pipeline_model_parallel_size': 1,
+[36m(TaskRunner pid=2191279)[0m                          'seed': 1,
+[36m(TaskRunner pid=2191279)[0m                          'sequence_parallel': True,
+[36m(TaskRunner pid=2191279)[0m                          'tensor_model_parallel_size': 1,
+[36m(TaskRunner pid=2191279)[0m                          'use_dist_checkpointing': False,
+[36m(TaskRunner pid=2191279)[0m                          'use_distributed_optimizer': True,
+[36m(TaskRunner pid=2191279)[0m                          'virtual_pipeline_model_parallel_size': None},
+[36m(TaskRunner pid=2191279)[0m             'model': {'enable_gradient_checkpointing': False,
+[36m(TaskRunner pid=2191279)[0m                       'external_lib': None,
+[36m(TaskRunner pid=2191279)[0m                       'gradient_checkpointing_kwargs': {'activations_checkpoint_granularity': None,
+[36m(TaskRunner pid=2191279)[0m                                                         'activations_checkpoint_method': None,
+[36m(TaskRunner pid=2191279)[0m                                                         'activations_checkpoint_num_layers': None},
+[36m(TaskRunner pid=2191279)[0m                       'override_config': {},
+[36m(TaskRunner pid=2191279)[0m                       'path': 'Qwen/Qwen3-4B',
+[36m(TaskRunner pid=2191279)[0m                       'tokenizer_path': '/data/base_models/Qwen3-235B-A22B'},
+[36m(TaskRunner pid=2191279)[0m             'optim': {'clip_grad': 1.0,
+[36m(TaskRunner pid=2191279)[0m                       'lr': 1e-05,
+[36m(TaskRunner pid=2191279)[0m                       'lr_warmup_steps_ratio': 0.0,
+[36m(TaskRunner pid=2191279)[0m                       'min_lr_ratio': None,
+[36m(TaskRunner pid=2191279)[0m                       'total_training_steps': -1,
+[36m(TaskRunner pid=2191279)[0m                       'warmup_style': 'constant',
+[36m(TaskRunner pid=2191279)[0m                       'weight_decay': 0.01},
+[36m(TaskRunner pid=2191279)[0m             'ppo_epochs': 1,
+[36m(TaskRunner pid=2191279)[0m             'ppo_micro_batch_size': None,
+[36m(TaskRunner pid=2191279)[0m             'ppo_micro_batch_size_per_gpu': None,
+[36m(TaskRunner pid=2191279)[0m             'ppo_mini_batch_size': 128,
+[36m(TaskRunner pid=2191279)[0m             'rollout_n': 8,
+[36m(TaskRunner pid=2191279)[0m             'shuffle': False,
+[36m(TaskRunner pid=2191279)[0m             'strategy': 'megatron',
+[36m(TaskRunner pid=2191279)[0m             'use_dynamic_bsz': False},
+[36m(TaskRunner pid=2191279)[0m  'custom_reward_function': {'name': 'compute_score', 'path': None},
+[36m(TaskRunner pid=2191279)[0m  'data': {'custom_cls': {'name': None, 'path': None},
+[36m(TaskRunner pid=2191279)[0m           'filter_overlong_prompts': True,
+[36m(TaskRunner pid=2191279)[0m           'filter_overlong_prompts_workers': 1,
+[36m(TaskRunner pid=2191279)[0m           'max_prompt_length': 32768,
+[36m(TaskRunner pid=2191279)[0m           'max_response_length': 4096,
+[36m(TaskRunner pid=2191279)[0m           'prompt_key': 'prompt',
+[36m(TaskRunner pid=2191279)[0m           'return_raw_chat': False,
+[36m(TaskRunner pid=2191279)[0m           'return_raw_input_ids': False,
+[36m(TaskRunner pid=2191279)[0m           'reward_fn_key': 'data_source',
+[36m(TaskRunner pid=2191279)[0m           'shuffle': True,
+[36m(TaskRunner pid=2191279)[0m           'tokenizer': None,
+[36m(TaskRunner pid=2191279)[0m           'train_batch_size': 128,
+[36m(TaskRunner pid=2191279)[0m           'train_files': ['/DATA_PATH//data/gsm8k/train.parquet'],
+[36m(TaskRunner pid=2191279)[0m           'truncation': 'error',
+[36m(TaskRunner pid=2191279)[0m           'val_batch_size': None,
+[36m(TaskRunner pid=2191279)[0m           'val_files': ['/DATA_PATH//data/gsm8k/test.parquet']},
+[36m(TaskRunner pid=2191279)[0m  'ray_init': {'num_cpus': None},
+[36m(TaskRunner pid=2191279)[0m  'reward_model': {'enable': False,
+[36m(TaskRunner pid=2191279)[0m                   'launch_reward_fn_async': False,
+[36m(TaskRunner pid=2191279)[0m                   'load_weight': True,
+[36m(TaskRunner pid=2191279)[0m                   'max_length': None,
+[36m(TaskRunner pid=2191279)[0m                   'megatron': {'context_parallel_size': 1,
+[36m(TaskRunner pid=2191279)[0m                                'dist_checkpointing_path': None,
+[36m(TaskRunner pid=2191279)[0m                                'expert_model_parallel_size': 1,
+[36m(TaskRunner pid=2191279)[0m                                'expert_tensor_parallel_size': 'None',
+[36m(TaskRunner pid=2191279)[0m                                'grad_offload': False,
+[36m(TaskRunner pid=2191279)[0m                                'optimizer_offload': False,
+[36m(TaskRunner pid=2191279)[0m                                'param_offload': False,
+[36m(TaskRunner pid=2191279)[0m                                'pipeline_model_parallel_size': 1,
+[36m(TaskRunner pid=2191279)[0m                                'seed': 1,
+[36m(TaskRunner pid=2191279)[0m                                'sequence_parallel': True,
+[36m(TaskRunner pid=2191279)[0m                                'tensor_model_parallel_size': 1,
+[36m(TaskRunner pid=2191279)[0m                                'use_dist_checkpointing': False,
+[36m(TaskRunner pid=2191279)[0m                                'use_distributed_optimizer': False,
+[36m(TaskRunner pid=2191279)[0m                                'virtual_pipeline_model_parallel_size': None},
+[36m(TaskRunner pid=2191279)[0m                   'micro_batch_size': None,
+[36m(TaskRunner pid=2191279)[0m                   'micro_batch_size_per_gpu': None,
+[36m(TaskRunner pid=2191279)[0m                   'model': {'external_lib': None,
+[36m(TaskRunner pid=2191279)[0m                             'input_tokenizer': '/data/base_models/Qwen3-235B-A22B',
+[36m(TaskRunner pid=2191279)[0m                             'path': '~/models/FsfairX-LLaMA3-RM-v0.1'},
+[36m(TaskRunner pid=2191279)[0m                   'sandbox_fusion': {'max_concurrent': 64, 'url': None},
+[36m(TaskRunner pid=2191279)[0m                   'strategy': 'megatron',
+[36m(TaskRunner pid=2191279)[0m                   'use_dynamic_bsz': False},
+[36m(TaskRunner pid=2191279)[0m  'trainer': {'balance_batch': True,
+[36m(TaskRunner pid=2191279)[0m              'critic_warmup': 0,
+[36m(TaskRunner pid=2191279)[0m              'default_hdfs_dir': None,
+[36m(TaskRunner pid=2191279)[0m              'default_local_dir': '/DATA_PATH//models/verl_grpo_megatron_gsm8k/qwen3_235b22b_moe_mcore_tp_etp_not_same/v20250523_074035',
+[36m(TaskRunner pid=2191279)[0m              'del_local_ckpt_after_load': False,
+[36m(TaskRunner pid=2191279)[0m              'experiment_name': 'qwen3_235b22b_moe_mcore_tp_etp_not_same',
+[36m(TaskRunner pid=2191279)[0m              'log_val_generations': 0,
+[36m(TaskRunner pid=2191279)[0m              'logger': ['console', 'tensorboard'],
+[36m(TaskRunner pid=2191279)[0m              'max_actor_ckpt_to_keep': 1,
+[36m(TaskRunner pid=2191279)[0m              'max_critic_ckpt_to_keep': 1,
+[36m(TaskRunner pid=2191279)[0m              'n_gpus_per_node': 8,
+[36m(TaskRunner pid=2191279)[0m              'nnodes': 16,
+[36m(TaskRunner pid=2191279)[0m              'project_name': 'verl_grpo_megatron_gsm8k',
+[36m(TaskRunner pid=2191279)[0m              'ray_wait_register_center_timeout': 300,
+[36m(TaskRunner pid=2191279)[0m              'resume_from_path': None,
+[36m(TaskRunner pid=2191279)[0m              'resume_mode': 'auto',
+[36m(TaskRunner pid=2191279)[0m              'save_freq': 10,
+[36m(TaskRunner pid=2191279)[0m              'test_freq': 5,
+[36m(TaskRunner pid=2191279)[0m              'total_epochs': 5,
+[36m(TaskRunner pid=2191279)[0m              'total_training_steps': None,
+[36m(TaskRunner pid=2191279)[0m              'val_before_train': True}}
+[36m(TaskRunner pid=2191279)[0m Using dataset class: RLHFDataset
+[36m(TaskRunner pid=2191279)[0m dataset len: 7473
+[36m(TaskRunner pid=2191279)[0m filter dataset len: 7473
+[36m(TaskRunner pid=2191279)[0m Using dataset class: RLHFDataset
+[36m(TaskRunner pid=2191279)[0m dataset len: 1319
+[36m(TaskRunner pid=2191279)[0m filter dataset len: 1319
+[36m(TaskRunner pid=2191279)[0m NOTICE: You have both enabled in-reward kl and kl loss.
+[36m(TaskRunner pid=2191279)[0m [validate_config] All configuration checks passed successfully!
+[36m(TaskRunner pid=2191279)[0m Size of train dataloader: 58, Size of val dataloader: 1
+[36m(TaskRunner pid=2191279)[0m Total training steps: 290
+[36m(TaskRunner pid=2191279)[0m colocated worker base class <class 'verl.single_controller.base.megatron.worker.MegatronWorker'>
+[36m(WorkerDict pid=1691639, ip=[PRIVATE_IP])[0m Overridden TF init config: {'num_layers': 94, 'hidden_size': 4096, 'num_attention_heads': 64, 'num_query_groups': 4, 'ffn_hidden_size': 12288, 'attention_dropout': 0.0, 'hidden_dropout': 0.0, 'kv_channels': 128, 'layernorm_epsilon': 1e-06, 'activation_func': <function silu at 0x14ff7fe26320>, 'normalization': 'RMSNorm', 'gated_linear_unit': True, 'pipeline_dtype': torch.bfloat16, 'params_dtype': torch.bfloat16, 'bf16': True, 'tensor_model_parallel_size': 2, 'pipeline_model_parallel_size': 2, 'expert_model_parallel_size': 32, 'expert_tensor_parallel_size': 1, 'virtual_pipeline_model_parallel_size': None, 'context_parallel_size': 1, 'overlap_p2p_comm': False, 'batch_p2p_comm': False, 'sequence_parallel': True, 'variable_seq_lengths': True, 'masked_softmax_fusion': True, 'moe_token_dispatcher_type': 'alltoall', 'use_cpu_initialization': False, 'add_bias_linear': False, 'moe_ffn_hidden_size': 1536, 'moe_router_bias_update_rate': 0.001, 'moe_router_topk': 8, 'num_moe_experts': 128, 'moe_aux_loss_coeff': 0.001, 'moe_router_load_balancing_type': 'aux_loss', 'moe_grouped_gemm': True, 'moe_router_score_function': 'softmax', 'persist_layer_norm': True, 'bias_activation_fusion': True, 'bias_dropout_fusion': True, 'moe_router_pre_softmax': False, 'qk_layernorm': True}
+[36m(WorkerDict pid=1691639, ip=[PRIVATE_IP])[0m TF config: TransformerConfig(tensor_model_parallel_size=2, pipeline_model_parallel_comm_backend=None, pipeline_model_parallel_size=2, virtual_pipeline_model_parallel_size=None, sequence_parallel=True, context_parallel_size=1, hierarchical_context_parallel_sizes=None, expert_model_parallel_size=32, expert_tensor_parallel_size=1, moe_extended_tp=False, perform_initialization=True, use_cpu_initialization=False, fp16=False, bf16=True, params_dtype=torch.bfloat16, timers=None, finalize_model_grads_func=None, grad_scale_func=None, no_sync_func=None, grad_sync_func=None, param_sync_func=None, deterministic_mode=False, enable_autocast=False, autocast_dtype=torch.bfloat16, num_microbatches_with_partial_activation_checkpoints=None, gradient_accumulation_fusion=False, async_tensor_model_parallel_allreduce=False, use_te_rng_tracker=False, tp_comm_overlap=False, tp_comm_bulk_wgrad=True, tp_comm_bulk_dgrad=True, tp_comm_overlap_ag=True, tp_comm_overlap_rs=True, tp_comm_overlap_rs_dgrad=False, tp_comm_split_ag=True, tp_comm_atomic_ag=False, tp_comm_split_rs=True, tp_comm_atomic_rs=False, cross_entropy_loss_fusion=False, cross_entropy_fusion_impl='native', tp_comm_overlap_disable_qkv=False, tp_comm_overlap_disable_fc1=False, tp_comm_bootstrap_backend='nccl', pipeline_dtype=torch.bfloat16, variable_seq_lengths=True, overlap_p2p_comm=False, batch_p2p_comm=False, batch_p2p_sync=True, use_ring_exchange_p2p=False, deallocate_pipeline_outputs=False, defer_embedding_wgrad_compute=False, wgrad_deferral_limit=0, pipeline_model_parallel_split_rank=None, overlap_p2p_comm_warmup_flush=False, microbatch_group_size_per_vp_stage=2, cpu_offloading=False, cpu_offloading_num_layers=0, _cpu_offloading_context=None, cpu_offloading_activations=True, cpu_offloading_weights=True, barrier_with_L1_time=True, num_layers=94, mtp_num_layers=None, mtp_loss_scaling_factor=None, num_layers_in_first_pipeline_stage=None, num_layers_in_last_pipeline_stage=None, account_for_embedding_in_pipeline_split=False, account_for_loss_in_pipeline_split=False, hidden_size=4096, num_attention_heads=64, attention_backend=<AttnBackend.auto: 5>, softmax_scale=None, num_query_groups=4, ffn_hidden_size=12288, kv_channels=128, hidden_dropout=0.0, attention_dropout=0.0, fp32_residual_connection=False, apply_residual_connection_post_layernorm=False, layernorm_epsilon=1e-06, layernorm_zero_centered_gamma=False, add_bias_linear=False, add_qkv_bias=False, gated_linear_unit=True, activation_func=<function silu at 0x14ff7fe26320>, activation_func_fp8_input_store=False, num_moe_experts=128, rotary_interleaved=False, window_size=None, normalization='RMSNorm', qk_layernorm=True, test_mode=False, calculate_per_token_loss=False, multi_latent_attention=False, init_method=functools.partial(<function normal_ at 0x14ff7fca6f80>, mean=0.0, std=0.02), output_layer_init_method=functools.partial(<function normal_ at 0x14ff7fca6f80>, mean=0.0, std=0.0014586499149789457), init_method_std=0.02, init_model_with_meta_device=False, apply_query_key_layer_scaling=False, attention_softmax_in_fp32=True, disable_bf16_reduced_precision_matmul=False, bias_activation_fusion=True, masked_softmax_fusion=True, persist_layer_norm=True, memory_efficient_layer_norm=False, bias_dropout_fusion=True, apply_rope_fusion=False, recompute_granularity=None, recompute_method=None, recompute_num_layers=None, distribute_saved_activations=None, fp8=None, fp8_recipe='delayed', fp8_param=False, fp8_margin=0, fp8_interval=1, fp8_amax_history_len=1, fp8_amax_compute_algo='most_recent', fp8_wgrad=True, fp8_dot_product_attention=False, fp8_multi_head_attention=False, tp_only_amax_red=False, first_last_layers_bf16=False, num_layers_at_start_in_bf16=1, num_layers_at_end_in_bf16=1, moe_shared_expert_intermediate_size=None, moe_shared_expert_overlap=False, moe_layer_freq=1, moe_ffn_hidden_size=1536, moe_router_load_balancing_type='aux_loss', moe_router_topk=8, moe_router_topk_limited_devices=None, moe_router_num_groups=None, moe_router_group_topk=None, moe_router_pre_softmax=False, moe_router_topk_scaling_factor=None, moe_router_score_function='softmax', moe_router_dtype=None, moe_router_enable_expert_bias=False, moe_router_bias_update_rate=0.001, moe_grouped_gemm=True, moe_use_legacy_grouped_gemm=False, moe_aux_loss_coeff=0.001, moe_z_loss_coeff=None, moe_input_jitter_eps=None, moe_token_dropping=False, moe_token_dispatcher_type='alltoall', moe_enable_deepep=False, moe_per_layer_logging=False, moe_expert_capacity_factor=None, moe_pad_expert_input_to_capacity=False, moe_token_drop_policy='probs', moe_layer_recompute=False, moe_permute_fusion=False, cp_comm_type=None, enable_cuda_graph=False, cuda_graph_use_single_mempool=False, cuda_graph_retain_backward_graph=False, cuda_graph_warmup_steps=3, external_cuda_graph=False, cuda_graph_scope='full', clone_scatter_output_in_embedding=True, disable_parameter_transpose_cache=False, config_logger_dir='', flash_decode=False, inference_rng_tracker=False, mrope_section=None, use_custom_fsdp=False, is_hybrid_model=False, mamba_state_dim=128, mamba_head_dim=64, mamba_num_groups=8)
+[36m(WorkerDict pid=1691639, ip=[PRIVATE_IP])[0m self.config.ref.load_weight: True
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m Model config after override: Qwen3MoeConfig {
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "architectures": [
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m     "Qwen3MoeForCausalLM"
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   ],
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "attention_bias": false,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "attention_dropout": 0.0,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "decoder_sparse_step": 1,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "eos_token_id": 151645,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "head_dim": 128,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "hidden_act": "silu",
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "hidden_size": 4096,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "initializer_range": 0.02,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "intermediate_size": 12288,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "max_position_embeddings": 40960,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "max_window_layers": 94,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "mlp_only_layers": [],
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "model_type": "qwen3_moe",
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "moe_intermediate_size": 1536,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "norm_topk_prob": true,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "num_attention_heads": 64,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "num_experts": 128,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "num_experts_per_tok": 8,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "num_hidden_layers": 94,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "num_key_value_heads": 4,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "output_router_logits": false,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "pad_token_id": 151643,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "rms_norm_eps": 1e-06,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "rope_scaling": null,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "rope_theta": 1000000.0,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "router_aux_loss_coef": 0.001,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "sliding_window": null,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "tie_word_embeddings": false,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "torch_dtype": "bfloat16",
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "transformers_version": "4.51.3",
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "use_cache": true,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "use_sliding_window": false,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "vocab_size": 151936
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m }
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m 
+[36m(WorkerDict pid=1691639, ip=[PRIVATE_IP])[0m load ref weight start
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m  > number of parameters on (tensor, pipeline) model parallel rank (0, 0): 5560209152
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m NCCL version 2.21.5+cuda12.4
+[36m(WorkerDict pid=1691638, ip=[PRIVATE_IP])[0m TransformerConfig(tensor_model_parallel_size=2, pipeline_model_parallel_comm_backend=None, pipeline_model_parallel_size=2, virtual_pipeline_model_parallel_size=None, sequence_parallel=True, context_parallel_size=1, hierarchical_context_parallel_sizes=None, expert_model_parallel_size=32, expert_tensor_parallel_size=1, moe_extended_tp=False, perform_initialization=True, use_cpu_initialization=False, fp16=False, bf16=True, params_dtype=torch.bfloat16, timers=None, finalize_model_grads_func=None, grad_scale_func=None, no_sync_func=None, grad_sync_func=None, param_sync_func=None, deterministic_mode=False, enable_autocast=False, autocast_dtype=torch.bfloat16, num_microbatches_with_partial_activation_checkpoints=None, gradient_accumulation_fusion=False, async_tensor_model_parallel_allreduce=False, use_te_rng_tracker=False, tp_comm_overlap=False, tp_comm_bulk_wgrad=True, tp_comm_bulk_dgrad=True, tp_comm_overlap_ag=True, tp_comm_overlap_rs=True, tp_comm_overlap_rs_dgrad=False, tp_comm_split_ag=True, tp_comm_atomic_ag=False, tp_comm_split_rs=True, tp_comm_atomic_rs=False, cross_entropy_loss_fusion=False, cross_entropy_fusion_impl='native', tp_comm_overlap_disable_qkv=False, tp_comm_overlap_disable_fc1=False, tp_comm_bootstrap_backend='nccl', pipeline_dtype=torch.bfloat16, variable_seq_lengths=True, overlap_p2p_comm=False, batch_p2p_comm=False, batch_p2p_sync=True, use_ring_exchange_p2p=False, deallocate_pipeline_outputs=False, defer_embedding_wgrad_compute=False, wgrad_deferral_limit=0, pipeline_model_parallel_split_rank=None, overlap_p2p_comm_warmup_flush=False, microbatch_group_size_per_vp_stage=2, cpu_offloading=False, cpu_offloading_num_layers=0, _cpu_offloading_context=None, cpu_offloading_activations=True, cpu_offloading_weights=True, barrier_with_L1_time=True, num_layers=94, mtp_num_layers=None, mtp_loss_scaling_factor=None, num_layers_in_first_pipeline_stage=None, num_layers_in_last_pipeline_stage=None, account_for_embedding_in_pipeline_split=False, account_for_loss_in_pipeline_split=False, hidden_size=4096, num_attention_heads=64, attention_backend=<AttnBackend.auto: 5>, softmax_scale=None, num_query_groups=4, ffn_hidden_size=12288, kv_channels=128, hidden_dropout=0.0, attention_dropout=0.0, fp32_residual_connection=False, apply_residual_connection_post_layernorm=False, layernorm_epsilon=1e-06, layernorm_zero_centered_gamma=False, add_bias_linear=False, add_qkv_bias=False, gated_linear_unit=True, activation_func=<function silu at 0x14b8540f6320>, activation_func_fp8_input_store=False, num_moe_experts=128, rotary_interleaved=False, window_size=None, normalization='RMSNorm', qk_layernorm=True, test_mode=False, calculate_per_token_loss=False, multi_latent_attention=False, init_method=functools.partial(<function normal_ at 0x14b834972f80>, mean=0.0, std=0.02), output_layer_init_method=functools.partial(<function normal_ at 0x14b834972f80>, mean=0.0, std=0.0014586499149789457), init_method_std=0.02, init_model_with_meta_device=False, apply_query_key_layer_scaling=False, attention_softmax_in_fp32=True, disable_bf16_reduced_precision_matmul=False, bias_activation_fusion=True, masked_softmax_fusion=True, persist_layer_norm=True, memory_efficient_layer_norm=False, bias_dropout_fusion=True, apply_rope_fusion=False, recompute_granularity=None, recompute_method=None, recompute_num_layers=None, distribute_saved_activations=None, fp8=None, fp8_recipe='delayed', fp8_param=False, fp8_margin=0, fp8_interval=1, fp8_amax_history_len=1, fp8_amax_compute_algo='most_recent', fp8_wgrad=True, fp8_dot_product_attention=False, fp8_multi_head_attention=False, tp_only_amax_red=False, first_last_layers_bf16=False, num_layers_at_start_in_bf16=1, num_layers_at_end_in_bf16=1, moe_shared_expert_intermediate_size=None, moe_shared_expert_overlap=False, moe_layer_freq=1, moe_ffn_hidden_size=1536, moe_router_load_balancing_type='aux_loss', moe_router_topk=8, moe_router_topk_limited_devices=None, moe_router_num_groups=None, moe_router_group_topk=None, moe_router_pre_softmax=False, moe_router_topk_scaling_factor=None, moe_router_score_function='softmax', moe_router_dtype=None, moe_router_enable_expert_bias=False, moe_router_bias_update_rate=0.001, moe_grouped_gemm=True, moe_use_legacy_grouped_gemm=False, moe_aux_loss_coeff=0.001, moe_z_loss_coeff=None, moe_input_jitter_eps=None, moe_token_dropping=False, moe_token_dispatcher_type='alltoall', moe_enable_deepep=False, moe_per_layer_logging=False, moe_expert_capacity_factor=None, moe_pad_expert_input_to_capacity=False, moe_token_drop_policy='probs', moe_layer_recompute=False, moe_permute_fusion=False, cp_comm_type=None, enable_cuda_graph=False, cuda_graph_use_single_mempool=False, cuda_graph_retain_backward_graph=False, cuda_graph_warmup_steps=3, external_cuda_graph=False, cuda_graph_scope='full', clone_scatter_output_in_embedding=True, disable_parameter_transpose_cache=False, config_logger_dir='', flash_decode=False, inference_rng_tracker=False, mrope_section=None, use_custom_fsdp=False, is_hybrid_model=False, mamba_state_dim=128, mamba_head_dim=64, mamba_num_groups=8)
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m Overridden TF init config: {'num_layers': 94, 'hidden_size': 4096, 'num_attention_heads': 64, 'num_query_groups': 4, 'ffn_hidden_size': 12288, 'attention_dropout': 0.0, 'hidden_dropout': 0.0, 'kv_channels': 128, 'layernorm_epsilon': 1e-06, 'activation_func': <function silu at 0x14befa926320>, 'normalization': 'RMSNorm', 'gated_linear_unit': True, 'pipeline_dtype': torch.bfloat16, 'params_dtype': torch.bfloat16, 'bf16': True, 'tensor_model_parallel_size': 2, 'pipeline_model_parallel_size': 2, 'expert_model_parallel_size': 32, 'expert_tensor_parallel_size': 1, 'virtual_pipeline_model_parallel_size': None, 'context_parallel_size': 1, 'overlap_p2p_comm': False, 'batch_p2p_comm': False, 'sequence_parallel': True, 'variable_seq_lengths': True, 'masked_softmax_fusion': True, 'moe_token_dispatcher_type': 'alltoall', 'use_cpu_initialization': False, 'add_bias_linear': False, 'moe_ffn_hidden_size': 1536, 'moe_router_bias_update_rate': 0.001, 'moe_router_topk': 8, 'num_moe_experts': 128, 'moe_aux_loss_coeff': 0.001, 'moe_router_load_balancing_type': 'aux_loss', 'moe_grouped_gemm': True, 'moe_router_score_function': 'softmax', 'persist_layer_norm': True, 'bias_activation_fusion': True, 'bias_dropout_fusion': True, 'moe_router_pre_softmax': False, 'qk_layernorm': True}[32m [repeated 127x across cluster][0m
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m TF config: TransformerConfig(tensor_model_parallel_size=2, pipeline_model_parallel_comm_backend=None, pipeline_model_parallel_size=2, virtual_pipeline_model_parallel_size=None, sequence_parallel=True, context_parallel_size=1, hierarchical_context_parallel_sizes=None, expert_model_parallel_size=32, expert_tensor_parallel_size=1, moe_extended_tp=False, perform_initialization=True, use_cpu_initialization=False, fp16=False, bf16=True, params_dtype=torch.bfloat16, timers=None, finalize_model_grads_func=None, grad_scale_func=None, no_sync_func=None, grad_sync_func=None, param_sync_func=None, deterministic_mode=False, enable_autocast=False, autocast_dtype=torch.bfloat16, num_microbatches_with_partial_activation_checkpoints=None, gradient_accumulation_fusion=False, async_tensor_model_parallel_allreduce=False, use_te_rng_tracker=False, tp_comm_overlap=False, tp_comm_bulk_wgrad=True, tp_comm_bulk_dgrad=True, tp_comm_overlap_ag=True, tp_comm_overlap_rs=True, tp_comm_overlap_rs_dgrad=False, tp_comm_split_ag=True, tp_comm_atomic_ag=False, tp_comm_split_rs=True, tp_comm_atomic_rs=False, cross_entropy_loss_fusion=False, cross_entropy_fusion_impl='native', tp_comm_overlap_disable_qkv=False, tp_comm_overlap_disable_fc1=False, tp_comm_bootstrap_backend='nccl', pipeline_dtype=torch.bfloat16, variable_seq_lengths=True, overlap_p2p_comm=False, batch_p2p_comm=False, batch_p2p_sync=True, use_ring_exchange_p2p=False, deallocate_pipeline_outputs=False, defer_embedding_wgrad_compute=False, wgrad_deferral_limit=0, pipeline_model_parallel_split_rank=None, overlap_p2p_comm_warmup_flush=False, microbatch_group_size_per_vp_stage=2, cpu_offloading=False, cpu_offloading_num_layers=0, _cpu_offloading_context=None, cpu_offloading_activations=True, cpu_offloading_weights=True, barrier_with_L1_time=True, num_layers=94, mtp_num_layers=None, mtp_loss_scaling_factor=None, num_layers_in_first_pipeline_stage=None, num_layers_in_last_pipeline_stage=None, account_for_embedding_in_pipeline_split=False, account_for_loss_in_pipeline_split=False, hidden_size=4096, num_attention_heads=64, attention_backend=<AttnBackend.auto: 5>, softmax_scale=None, num_query_groups=4, ffn_hidden_size=12288, kv_channels=128, hidden_dropout=0.0, attention_dropout=0.0, fp32_residual_connection=False, apply_residual_connection_post_layernorm=False, layernorm_epsilon=1e-06, layernorm_zero_centered_gamma=False, add_bias_linear=False, add_qkv_bias=False, gated_linear_unit=True, activation_func=<function silu at 0x14befa926320>, activation_func_fp8_input_store=False, num_moe_experts=128, rotary_interleaved=False, window_size=None, normalization='RMSNorm', qk_layernorm=True, test_mode=False, calculate_per_token_loss=False, multi_latent_attention=False, init_method=functools.partial(<function normal_ at 0x14befa7a6f80>, mean=0.0, std=0.02), output_layer_init_method=functools.partial(<function normal_ at 0x14befa7a6f80>, mean=0.0, std=0.0014586499149789457), init_method_std=0.02, init_model_with_meta_device=False, apply_query_key_layer_scaling=False, attention_softmax_in_fp32=True, disable_bf16_reduced_precision_matmul=False, bias_activation_fusion=True, masked_softmax_fusion=True, persist_layer_norm=True, memory_efficient_layer_norm=False, bias_dropout_fusion=True, apply_rope_fusion=False, recompute_granularity=None, recompute_method=None, recompute_num_layers=None, distribute_saved_activations=None, fp8=None, fp8_recipe='delayed', fp8_param=False, fp8_margin=0, fp8_interval=1, fp8_amax_history_len=1, fp8_amax_compute_algo='most_recent', fp8_wgrad=True, fp8_dot_product_attention=False, fp8_multi_head_attention=False, tp_only_amax_red=False, first_last_layers_bf16=False, num_layers_at_start_in_bf16=1, num_layers_at_end_in_bf16=1, moe_shared_expert_intermediate_size=None, moe_shared_expert_overlap=False, moe_layer_freq=1, moe_ffn_hidden_size=1536, moe_router_load_balancing_type='aux_loss', moe_router_topk=8, moe_router_topk_limited_devices=None, moe_router_num_groups=None, moe_router_group_topk=None, moe_router_pre_softmax=False, moe_router_topk_scaling_factor=None, moe_router_score_function='softmax', moe_router_dtype=None, moe_router_enable_expert_bias=False, moe_router_bias_update_rate=0.001, moe_grouped_gemm=True, moe_use_legacy_grouped_gemm=False, moe_aux_loss_coeff=0.001, moe_z_loss_coeff=None, moe_input_jitter_eps=None, moe_token_dropping=False, moe_token_dispatcher_type='alltoall', moe_enable_deepep=False, moe_per_layer_logging=False, moe_expert_capacity_factor=None, moe_pad_expert_input_to_capacity=False, moe_token_drop_policy='probs', moe_layer_recompute=False, moe_permute_fusion=False, cp_comm_type=None, enable_cuda_graph=False, cuda_graph_use_single_mempool=False, cuda_graph_retain_backward_graph=False, cuda_graph_warmup_steps=3, external_cuda_graph=False, cuda_graph_scope='full', clone_scatter_output_in_embedding=True, disable_parameter_transpose_cache=False, config_logger_dir='', flash_decode=False, inference_rng_tracker=False, mrope_section=None, use_custom_fsdp=False, is_hybrid_model=False, mamba_state_dim=128, mamba_head_dim=64, mamba_num_groups=8)[32m [repeated 127x across cluster][0m
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m self.config.ref.load_weight: True[32m [repeated 127x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m load ref weight start[32m [repeated 127x across cluster][0m
+[36m(WorkerDict pid=664239, ip=[PRIVATE_IP])[0m  > number of parameters on (tensor, pipeline) model parallel rank (1, 0): 5560209152[32m [repeated 3x across cluster][0m
+[36m(WorkerDict pid=1691642, ip=[PRIVATE_IP])[0m TransformerConfig(tensor_model_parallel_size=2, pipeline_model_parallel_comm_backend=None, pipeline_model_parallel_size=2, virtual_pipeline_model_parallel_size=None, sequence_parallel=True, context_parallel_size=1, hierarchical_context_parallel_sizes=None, expert_model_parallel_size=32, expert_tensor_parallel_size=1, moe_extended_tp=False, perform_initialization=True, use_cpu_initialization=False, fp16=False, bf16=True, params_dtype=torch.bfloat16, timers=None, finalize_model_grads_func=None, grad_scale_func=None, no_sync_func=None, grad_sync_func=None, param_sync_func=None, deterministic_mode=False, enable_autocast=False, autocast_dtype=torch.bfloat16, num_microbatches_with_partial_activation_checkpoints=None, gradient_accumulation_fusion=False, async_tensor_model_parallel_allreduce=False, use_te_rng_tracker=False, tp_comm_overlap=False, tp_comm_bulk_wgrad=True, tp_comm_bulk_dgrad=True, tp_comm_overlap_ag=True, tp_comm_overlap_rs=True, tp_comm_overlap_rs_dgrad=False, tp_comm_split_ag=True, tp_comm_atomic_ag=False, tp_comm_split_rs=True, tp_comm_atomic_rs=False, cross_entropy_loss_fusion=False, cross_entropy_fusion_impl='native', tp_comm_overlap_disable_qkv=False, tp_comm_overlap_disable_fc1=False, tp_comm_bootstrap_backend='nccl', pipeline_dtype=torch.bfloat16, variable_seq_lengths=True, overlap_p2p_comm=False, batch_p2p_comm=False, batch_p2p_sync=True, use_ring_exchange_p2p=False, deallocate_pipeline_outputs=False, defer_embedding_wgrad_compute=False, wgrad_deferral_limit=0, pipeline_model_parallel_split_rank=None, overlap_p2p_comm_warmup_flush=False, microbatch_group_size_per_vp_stage=2, cpu_offloading=False, cpu_offloading_num_layers=0, _cpu_offloading_context=None, cpu_offloading_activations=True, cpu_offloading_weights=True, barrier_with_L1_time=True, num_layers=94, mtp_num_layers=None, mtp_loss_scaling_factor=None, num_layers_in_first_pipeline_stage=None, num_layers_in_last_pipeline_stage=None, account_for_embedding_in_pipeline_split=False, account_for_loss_in_pipeline_split=False, hidden_size=4096, num_attention_heads=64, attention_backend=<AttnBackend.auto: 5>, softmax_scale=None, num_query_groups=4, ffn_hidden_size=12288, kv_channels=128, hidden_dropout=0.0, attention_dropout=0.0, fp32_residual_connection=False, apply_residual_connection_post_layernorm=False, layernorm_epsilon=1e-06, layernorm_zero_centered_gamma=False, add_bias_linear=False, add_qkv_bias=False, gated_linear_unit=True, activation_func=<function silu at 0x150c12416320>, activation_func_fp8_input_store=False, num_moe_experts=128, rotary_interleaved=False, window_size=None, normalization='RMSNorm', qk_layernorm=True, test_mode=False, calculate_per_token_loss=False, multi_latent_attention=False, init_method=functools.partial(<function normal_ at 0x150c12296f80>, mean=0.0, std=0.02), output_layer_init_method=functools.partial(<function normal_ at 0x150c12296f80>, mean=0.0, std=0.0014586499149789457), init_method_std=0.02, init_model_with_meta_device=False, apply_query_key_layer_scaling=False, attention_softmax_in_fp32=True, disable_bf16_reduced_precision_matmul=False, bias_activation_fusion=True, masked_softmax_fusion=True, persist_layer_norm=True, memory_efficient_layer_norm=False, bias_dropout_fusion=True, apply_rope_fusion=False, recompute_granularity=None, recompute_method=None, recompute_num_layers=None, distribute_saved_activations=None, fp8=None, fp8_recipe='delayed', fp8_param=False, fp8_margin=0, fp8_interval=1, fp8_amax_history_len=1, fp8_amax_compute_algo='most_recent', fp8_wgrad=True, fp8_dot_product_attention=False, fp8_multi_head_attention=False, tp_only_amax_red=False, first_last_layers_bf16=False, num_layers_at_start_in_bf16=1, num_layers_at_end_in_bf16=1, moe_shared_expert_intermediate_size=None, moe_shared_expert_overlap=False, moe_layer_freq=1, moe_ffn_hidden_size=1536, moe_router_load_balancing_type='aux_loss', moe_router_topk=8, moe_router_topk_limited_devices=None, moe_router_num_groups=None, moe_router_group_topk=None, moe_router_pre_softmax=False, moe_router_topk_scaling_factor=None, moe_router_score_function='softmax', moe_router_dtype=None, moe_router_enable_expert_bias=False, moe_router_bias_update_rate=0.001, moe_grouped_gemm=True, moe_use_legacy_grouped_gemm=False, moe_aux_loss_coeff=0.001, moe_z_loss_coeff=None, moe_input_jitter_eps=None, moe_token_dropping=False, moe_token_dispatcher_type='alltoall', moe_enable_deepep=False, moe_per_layer_logging=False, moe_expert_capacity_factor=None, moe_pad_expert_input_to_capacity=False, moe_token_drop_policy='probs', moe_layer_recompute=False, moe_permute_fusion=False, cp_comm_type=None, enable_cuda_graph=False, cuda_graph_use_single_mempool=False, cuda_graph_retain_backward_graph=False, cuda_graph_warmup_steps=3, external_cuda_graph=False, cuda_graph_scope='full', clone_scatter_output_in_embedding=True, disable_parameter_transpose_cache=False, config_logger_dir='', flash_decode=False, inference_rng_tracker=False, mrope_section=None, use_custom_fsdp=False, is_hybrid_model=False, mamba_state_dim=128, mamba_head_dim=64, mamba_num_groups=8)[32m [repeated 127x across cluster][0m
+[36m(WorkerDict pid=1898926, ip=[PRIVATE_IP])[0m Overridden TF init config: {'num_layers': 94, 'hidden_size': 4096, 'num_attention_heads': 64, 'num_query_groups': 4, 'ffn_hidden_size': 12288, 'attention_dropout': 0.0, 'hidden_dropout': 0.0, 'kv_channels': 128, 'layernorm_epsilon': 1e-06, 'activation_func': <function silu at 0x14bc3710a320>, 'normalization': 'RMSNorm', 'gated_linear_unit': True, 'pipeline_dtype': torch.bfloat16, 'params_dtype': torch.bfloat16, 'bf16': True, 'tensor_model_parallel_size': 2, 'pipeline_model_parallel_size': 2, 'expert_model_parallel_size': 32, 'expert_tensor_parallel_size': 1, 'virtual_pipeline_model_parallel_size': None, 'context_parallel_size': 1, 'overlap_p2p_comm': False, 'batch_p2p_comm': False, 'sequence_parallel': True, 'variable_seq_lengths': True, 'masked_softmax_fusion': True, 'moe_token_dispatcher_type': 'alltoall', 'use_cpu_initialization': False, 'add_bias_linear': False, 'moe_ffn_hidden_size': 1536, 'moe_router_bias_update_rate': 0.001, 'moe_router_topk': 8, 'num_moe_experts': 128, 'moe_aux_loss_coeff': 0.001, 'moe_router_load_balancing_type': 'aux_loss', 'moe_grouped_gemm': True, 'moe_router_score_function': 'softmax', 'persist_layer_norm': True, 'bias_activation_fusion': True, 'bias_dropout_fusion': True, 'moe_router_pre_softmax': False, 'qk_layernorm': True}
+[36m(WorkerDict pid=1898926, ip=[PRIVATE_IP])[0m TF config: TransformerConfig(tensor_model_parallel_size=2, pipeline_model_parallel_comm_backend=None, pipeline_model_parallel_size=2, virtual_pipeline_model_parallel_size=None, sequence_parallel=True, context_parallel_size=1, hierarchical_context_parallel_sizes=None, expert_model_parallel_size=32, expert_tensor_parallel_size=1, moe_extended_tp=False, perform_initialization=True, use_cpu_initialization=False, fp16=False, bf16=True, params_dtype=torch.bfloat16, timers=None, finalize_model_grads_func=None, grad_scale_func=None, no_sync_func=None, grad_sync_func=None, param_sync_func=None, deterministic_mode=False, enable_autocast=False, autocast_dtype=torch.bfloat16, num_microbatches_with_partial_activation_checkpoints=None, gradient_accumulation_fusion=False, async_tensor_model_parallel_allreduce=False, use_te_rng_tracker=False, tp_comm_overlap=False, tp_comm_bulk_wgrad=True, tp_comm_bulk_dgrad=True, tp_comm_overlap_ag=True, tp_comm_overlap_rs=True, tp_comm_overlap_rs_dgrad=False, tp_comm_split_ag=True, tp_comm_atomic_ag=False, tp_comm_split_rs=True, tp_comm_atomic_rs=False, cross_entropy_loss_fusion=False, cross_entropy_fusion_impl='native', tp_comm_overlap_disable_qkv=False, tp_comm_overlap_disable_fc1=False, tp_comm_bootstrap_backend='nccl', pipeline_dtype=torch.bfloat16, variable_seq_lengths=True, overlap_p2p_comm=False, batch_p2p_comm=False, batch_p2p_sync=True, use_ring_exchange_p2p=False, deallocate_pipeline_outputs=False, defer_embedding_wgrad_compute=False, wgrad_deferral_limit=0, pipeline_model_parallel_split_rank=None, overlap_p2p_comm_warmup_flush=False, microbatch_group_size_per_vp_stage=2, cpu_offloading=False, cpu_offloading_num_layers=0, _cpu_offloading_context=None, cpu_offloading_activations=True, cpu_offloading_weights=True, barrier_with_L1_time=True, num_layers=94, mtp_num_layers=None, mtp_loss_scaling_factor=None, num_layers_in_first_pipeline_stage=None, num_layers_in_last_pipeline_stage=None, account_for_embedding_in_pipeline_split=False, account_for_loss_in_pipeline_split=False, hidden_size=4096, num_attention_heads=64, attention_backend=<AttnBackend.auto: 5>, softmax_scale=None, num_query_groups=4, ffn_hidden_size=12288, kv_channels=128, hidden_dropout=0.0, attention_dropout=0.0, fp32_residual_connection=False, apply_residual_connection_post_layernorm=False, layernorm_epsilon=1e-06, layernorm_zero_centered_gamma=False, add_bias_linear=False, add_qkv_bias=False, gated_linear_unit=True, activation_func=<function silu at 0x14bc3710a320>, activation_func_fp8_input_store=False, num_moe_experts=128, rotary_interleaved=False, window_size=None, normalization='RMSNorm', qk_layernorm=True, test_mode=False, calculate_per_token_loss=False, multi_latent_attention=False, init_method=functools.partial(<function normal_ at 0x14bc36566f80>, mean=0.0, std=0.02), output_layer_init_method=functools.partial(<function normal_ at 0x14bc36566f80>, mean=0.0, std=0.0014586499149789457), init_method_std=0.02, init_model_with_meta_device=False, apply_query_key_layer_scaling=False, attention_softmax_in_fp32=True, disable_bf16_reduced_precision_matmul=False, bias_activation_fusion=True, masked_softmax_fusion=True, persist_layer_norm=True, memory_efficient_layer_norm=False, bias_dropout_fusion=True, apply_rope_fusion=False, recompute_granularity=None, recompute_method=None, recompute_num_layers=None, distribute_saved_activations=None, fp8=None, fp8_recipe='delayed', fp8_param=False, fp8_margin=0, fp8_interval=1, fp8_amax_history_len=1, fp8_amax_compute_algo='most_recent', fp8_wgrad=True, fp8_dot_product_attention=False, fp8_multi_head_attention=False, tp_only_amax_red=False, first_last_layers_bf16=False, num_layers_at_start_in_bf16=1, num_layers_at_end_in_bf16=1, moe_shared_expert_intermediate_size=None, moe_shared_expert_overlap=False, moe_layer_freq=1, moe_ffn_hidden_size=1536, moe_router_load_balancing_type='aux_loss', moe_router_topk=8, moe_router_topk_limited_devices=None, moe_router_num_groups=None, moe_router_group_topk=None, moe_router_pre_softmax=False, moe_router_topk_scaling_factor=None, moe_router_score_function='softmax', moe_router_dtype=None, moe_router_enable_expert_bias=False, moe_router_bias_update_rate=0.001, moe_grouped_gemm=True, moe_use_legacy_grouped_gemm=False, moe_aux_loss_coeff=0.001, moe_z_loss_coeff=None, moe_input_jitter_eps=None, moe_token_dropping=False, moe_token_dispatcher_type='alltoall', moe_enable_deepep=False, moe_per_layer_logging=False, moe_expert_capacity_factor=None, moe_pad_expert_input_to_capacity=False, moe_token_drop_policy='probs', moe_layer_recompute=False, moe_permute_fusion=False, cp_comm_type=None, enable_cuda_graph=False, cuda_graph_use_single_mempool=False, cuda_graph_retain_backward_graph=False, cuda_graph_warmup_steps=3, external_cuda_graph=False, cuda_graph_scope='full', clone_scatter_output_in_embedding=True, disable_parameter_transpose_cache=False, config_logger_dir='', flash_decode=False, inference_rng_tracker=False, mrope_section=None, use_custom_fsdp=False, is_hybrid_model=False, mamba_state_dim=128, mamba_head_dim=64, mamba_num_groups=8)
+[36m(WorkerDict pid=1898925, ip=[PRIVATE_IP])[0m Overridden TF init config: {'num_layers': 94, 'hidden_size': 4096, 'num_attention_heads': 64, 'num_query_groups': 4, 'ffn_hidden_size': 12288, 'attention_dropout': 0.0, 'hidden_dropout': 0.0, 'kv_channels': 128, 'layernorm_epsilon': 1e-06, 'activation_func': <function silu at 0x1479af322320>, 'normalization': 'RMSNorm', 'gated_linear_unit': True, 'pipeline_dtype': torch.bfloat16, 'params_dtype': torch.bfloat16, 'bf16': True, 'tensor_model_parallel_size': 2, 'pipeline_model_parallel_size': 2, 'expert_model_parallel_size': 32, 'expert_tensor_parallel_size': 1, 'virtual_pipeline_model_parallel_size': None, 'context_parallel_size': 1, 'overlap_p2p_comm': False, 'batch_p2p_comm': False, 'sequence_parallel': True, 'variable_seq_lengths': True, 'masked_softmax_fusion': True, 'moe_token_dispatcher_type': 'alltoall', 'use_cpu_initialization': False, 'add_bias_linear': False, 'moe_ffn_hidden_size': 1536, 'moe_router_bias_update_rate': 0.001, 'moe_router_topk': 8, 'num_moe_experts': 128, 'moe_aux_loss_coeff': 0.001, 'moe_router_load_balancing_type': 'aux_loss', 'moe_grouped_gemm': True, 'moe_router_score_function': 'softmax', 'persist_layer_norm': True, 'bias_activation_fusion': True, 'bias_dropout_fusion': True, 'moe_router_pre_softmax': False, 'qk_layernorm': True}
+[36m(WorkerDict pid=1898925, ip=[PRIVATE_IP])[0m TF config: TransformerConfig(tensor_model_parallel_size=2, pipeline_model_parallel_comm_backend=None, pipeline_model_parallel_size=2, virtual_pipeline_model_parallel_size=None, sequence_parallel=True, context_parallel_size=1, hierarchical_context_parallel_sizes=None, expert_model_parallel_size=32, expert_tensor_parallel_size=1, moe_extended_tp=False, perform_initialization=True, use_cpu_initialization=False, fp16=False, bf16=True, params_dtype=torch.bfloat16, timers=None, finalize_model_grads_func=None, grad_scale_func=None, no_sync_func=None, grad_sync_func=None, param_sync_func=None, deterministic_mode=False, enable_autocast=False, autocast_dtype=torch.bfloat16, num_microbatches_with_partial_activation_checkpoints=None, gradient_accumulation_fusion=False, async_tensor_model_parallel_allreduce=False, use_te_rng_tracker=False, tp_comm_overlap=False, tp_comm_bulk_wgrad=True, tp_comm_bulk_dgrad=True, tp_comm_overlap_ag=True, tp_comm_overlap_rs=True, tp_comm_overlap_rs_dgrad=False, tp_comm_split_ag=True, tp_comm_atomic_ag=False, tp_comm_split_rs=True, tp_comm_atomic_rs=False, cross_entropy_loss_fusion=False, cross_entropy_fusion_impl='native', tp_comm_overlap_disable_qkv=False, tp_comm_overlap_disable_fc1=False, tp_comm_bootstrap_backend='nccl', pipeline_dtype=torch.bfloat16, variable_seq_lengths=True, overlap_p2p_comm=False, batch_p2p_comm=False, batch_p2p_sync=True, use_ring_exchange_p2p=False, deallocate_pipeline_outputs=False, defer_embedding_wgrad_compute=False, wgrad_deferral_limit=0, pipeline_model_parallel_split_rank=None, overlap_p2p_comm_warmup_flush=False, microbatch_group_size_per_vp_stage=2, cpu_offloading=False, cpu_offloading_num_layers=0, _cpu_offloading_context=None, cpu_offloading_activations=True, cpu_offloading_weights=True, barrier_with_L1_time=True, num_layers=94, mtp_num_layers=None, mtp_loss_scaling_factor=None, num_layers_in_first_pipeline_stage=None, num_layers_in_last_pipeline_stage=None, account_for_embedding_in_pipeline_split=False, account_for_loss_in_pipeline_split=False, hidden_size=4096, num_attention_heads=64, attention_backend=<AttnBackend.auto: 5>, softmax_scale=None, num_query_groups=4, ffn_hidden_size=12288, kv_channels=128, hidden_dropout=0.0, attention_dropout=0.0, fp32_residual_connection=False, apply_residual_connection_post_layernorm=False, layernorm_epsilon=1e-06, layernorm_zero_centered_gamma=False, add_bias_linear=False, add_qkv_bias=False, gated_linear_unit=True, activation_func=<function silu at 0x1479af322320>, activation_func_fp8_input_store=False, num_moe_experts=128, rotary_interleaved=False, window_size=None, normalization='RMSNorm', qk_layernorm=True, test_mode=False, calculate_per_token_loss=False, multi_latent_attention=False, init_method=functools.partial(<function normal_ at 0x1479af1a2f80>, mean=0.0, std=0.02), output_layer_init_method=functools.partial(<function normal_ at 0x1479af1a2f80>, mean=0.0, std=0.0014586499149789457), init_method_std=0.02, init_model_with_meta_device=False, apply_query_key_layer_scaling=False, attention_softmax_in_fp32=True, disable_bf16_reduced_precision_matmul=False, bias_activation_fusion=True, masked_softmax_fusion=True, persist_layer_norm=True, memory_efficient_layer_norm=False, bias_dropout_fusion=True, apply_rope_fusion=False, recompute_granularity=None, recompute_method=None, recompute_num_layers=None, distribute_saved_activations=None, fp8=None, fp8_recipe='delayed', fp8_param=False, fp8_margin=0, fp8_interval=1, fp8_amax_history_len=1, fp8_amax_compute_algo='most_recent', fp8_wgrad=True, fp8_dot_product_attention=False, fp8_multi_head_attention=False, tp_only_amax_red=False, first_last_layers_bf16=False, num_layers_at_start_in_bf16=1, num_layers_at_end_in_bf16=1, moe_shared_expert_intermediate_size=None, moe_shared_expert_overlap=False, moe_layer_freq=1, moe_ffn_hidden_size=1536, moe_router_load_balancing_type='aux_loss', moe_router_topk=8, moe_router_topk_limited_devices=None, moe_router_num_groups=None, moe_router_group_topk=None, moe_router_pre_softmax=False, moe_router_topk_scaling_factor=None, moe_router_score_function='softmax', moe_router_dtype=None, moe_router_enable_expert_bias=False, moe_router_bias_update_rate=0.001, moe_grouped_gemm=True, moe_use_legacy_grouped_gemm=False, moe_aux_loss_coeff=0.001, moe_z_loss_coeff=None, moe_input_jitter_eps=None, moe_token_dropping=False, moe_token_dispatcher_type='alltoall', moe_enable_deepep=False, moe_per_layer_logging=False, moe_expert_capacity_factor=None, moe_pad_expert_input_to_capacity=False, moe_token_drop_policy='probs', moe_layer_recompute=False, moe_permute_fusion=False, cp_comm_type=None, enable_cuda_graph=False, cuda_graph_use_single_mempool=False, cuda_graph_retain_backward_graph=False, cuda_graph_warmup_steps=3, external_cuda_graph=False, cuda_graph_scope='full', clone_scatter_output_in_embedding=True, disable_parameter_transpose_cache=False, config_logger_dir='', flash_decode=False, inference_rng_tracker=False, mrope_section=None, use_custom_fsdp=False, is_hybrid_model=False, mamba_state_dim=128, mamba_head_dim=64, mamba_num_groups=8)
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m Model config after override: Qwen3MoeConfig {
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "architectures": [
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m     "Qwen3MoeForCausalLM"
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   ],
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "attention_bias": false,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "attention_dropout": 0.0,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "decoder_sparse_step": 1,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "eos_token_id": 151645,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "head_dim": 128,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "hidden_act": "silu",
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "hidden_size": 4096,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "initializer_range": 0.02,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "intermediate_size": 12288,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "max_position_embeddings": 40960,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "max_window_layers": 94,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "mlp_only_layers": [],
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "model_type": "qwen3_moe",
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "moe_intermediate_size": 1536,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "norm_topk_prob": true,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "num_attention_heads": 64,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "num_experts": 128,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "num_experts_per_tok": 8,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "num_hidden_layers": 94,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "num_key_value_heads": 4,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "output_router_logits": false,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "pad_token_id": 151643,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "rms_norm_eps": 1e-06,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "rope_scaling": null,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "rope_theta": 1000000.0,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "router_aux_loss_coef": 0.001,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "sliding_window": null,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "tie_word_embeddings": false,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "torch_dtype": "bfloat16",
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "transformers_version": "4.51.3",
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "use_cache": true,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "use_sliding_window": false,
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m   "vocab_size": 151936
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m }
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m 
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m  > number of parameters on (tensor, pipeline) model parallel rank (0, 0): 5560209152
+[36m(WorkerDict pid=1639633, ip=[PRIVATE_IP])[0m NCCL version 2.21.5+cuda12.4
+[36m(WorkerDict pid=2194634)[0m Overridden TF init config: {'num_layers': 94, 'hidden_size': 4096, 'num_attention_heads': 64, 'num_query_groups': 4, 'ffn_hidden_size': 12288, 'attention_dropout': 0.0, 'hidden_dropout': 0.0, 'kv_channels': 128, 'layernorm_epsilon': 1e-06, 'activation_func': <function silu at 0x14afc3fb63b0>, 'normalization': 'RMSNorm', 'gated_linear_unit': True, 'pipeline_dtype': torch.bfloat16, 'params_dtype': torch.bfloat16, 'bf16': True, 'tensor_model_parallel_size': 2, 'pipeline_model_parallel_size': 2, 'expert_model_parallel_size': 32, 'expert_tensor_parallel_size': 1, 'virtual_pipeline_model_parallel_size': None, 'context_parallel_size': 1, 'overlap_p2p_comm': False, 'batch_p2p_comm': False, 'sequence_parallel': True, 'variable_seq_lengths': True, 'masked_softmax_fusion': True, 'moe_token_dispatcher_type': 'alltoall', 'use_cpu_initialization': False, 'add_bias_linear': False, 'moe_ffn_hidden_size': 1536, 'moe_router_bias_update_rate': 0.001, 'moe_router_topk': 8, 'num_moe_experts': 128, 'moe_aux_loss_coeff': 0.001, 'moe_router_load_balancing_type': 'aux_loss', 'moe_grouped_gemm': True, 'moe_router_score_function': 'softmax', 'persist_layer_norm': True, 'bias_activation_fusion': True, 'bias_dropout_fusion': True, 'moe_router_pre_softmax': False, 'qk_layernorm': True}[32m [repeated 126x across cluster][0m
+[36m(WorkerDict pid=2194634)[0m TF config: TransformerConfig(tensor_model_parallel_size=2, pipeline_model_parallel_comm_backend=None, pipeline_model_parallel_size=2, virtual_pipeline_model_parallel_size=None, sequence_parallel=True, context_parallel_size=1, hierarchical_context_parallel_sizes=None, expert_model_parallel_size=32, expert_tensor_parallel_size=1, moe_extended_tp=False, perform_initialization=True, use_cpu_initialization=False, fp16=False, bf16=True, params_dtype=torch.bfloat16, timers=None, finalize_model_grads_func=None, grad_scale_func=None, no_sync_func=None, grad_sync_func=None, param_sync_func=None, deterministic_mode=False, enable_autocast=False, autocast_dtype=torch.bfloat16, num_microbatches_with_partial_activation_checkpoints=None, gradient_accumulation_fusion=False, async_tensor_model_parallel_allreduce=False, use_te_rng_tracker=False, tp_comm_overlap=False, tp_comm_bulk_wgrad=True, tp_comm_bulk_dgrad=True, tp_comm_overlap_ag=True, tp_comm_overlap_rs=True, tp_comm_overlap_rs_dgrad=False, tp_comm_split_ag=True, tp_comm_atomic_ag=False, tp_comm_split_rs=True, tp_comm_atomic_rs=False, cross_entropy_loss_fusion=False, cross_entropy_fusion_impl='native', tp_comm_overlap_disable_qkv=False, tp_comm_overlap_disable_fc1=False, tp_comm_bootstrap_backend='nccl', pipeline_dtype=torch.bfloat16, variable_seq_lengths=True, overlap_p2p_comm=False, batch_p2p_comm=False, batch_p2p_sync=True, use_ring_exchange_p2p=False, deallocate_pipeline_outputs=False, defer_embedding_wgrad_compute=False, wgrad_deferral_limit=0, pipeline_model_parallel_split_rank=None, overlap_p2p_comm_warmup_flush=False, microbatch_group_size_per_vp_stage=2, cpu_offloading=False, cpu_offloading_num_layers=0, _cpu_offloading_context=None, cpu_offloading_activations=True, cpu_offloading_weights=True, barrier_with_L1_time=True, num_layers=94, mtp_num_layers=None, mtp_loss_scaling_factor=None, num_layers_in_first_pipeline_stage=None, num_layers_in_last_pipeline_stage=None, account_for_embedding_in_pipeline_split=False, account_for_loss_in_pipeline_split=False, hidden_size=4096, num_attention_heads=64, attention_backend=<AttnBackend.auto: 5>, softmax_scale=None, num_query_groups=4, ffn_hidden_size=12288, kv_channels=128, hidden_dropout=0.0, attention_dropout=0.0, fp32_residual_connection=False, apply_residual_connection_post_layernorm=False, layernorm_epsilon=1e-06, layernorm_zero_centered_gamma=False, add_bias_linear=False, add_qkv_bias=False, gated_linear_unit=True, activation_func=<function silu at 0x14afc3fb63b0>, activation_func_fp8_input_store=False, num_moe_experts=128, rotary_interleaved=False, window_size=None, normalization='RMSNorm', qk_layernorm=True, test_mode=False, calculate_per_token_loss=False, multi_latent_attention=False, init_method=functools.partial(<function normal_ at 0x14af728d3010>, mean=0.0, std=0.02), output_layer_init_method=functools.partial(<function normal_ at 0x14af728d3010>, mean=0.0, std=0.0014586499149789457), init_method_std=0.02, init_model_with_meta_device=False, apply_query_key_layer_scaling=False, attention_softmax_in_fp32=True, disable_bf16_reduced_precision_matmul=False, bias_activation_fusion=True, masked_softmax_fusion=True, persist_layer_norm=True, memory_efficient_layer_norm=False, bias_dropout_fusion=True, apply_rope_fusion=False, recompute_granularity=None, recompute_method=None, recompute_num_layers=None, distribute_saved_activations=None, fp8=None, fp8_recipe='delayed', fp8_param=False, fp8_margin=0, fp8_interval=1, fp8_amax_history_len=1, fp8_amax_compute_algo='most_recent', fp8_wgrad=True, fp8_dot_product_attention=False, fp8_multi_head_attention=False, tp_only_amax_red=False, first_last_layers_bf16=False, num_layers_at_start_in_bf16=1, num_layers_at_end_in_bf16=1, moe_shared_expert_intermediate_size=None, moe_shared_expert_overlap=False, moe_layer_freq=1, moe_ffn_hidden_size=1536, moe_router_load_balancing_type='aux_loss', moe_router_topk=8, moe_router_topk_limited_devices=None, moe_router_num_groups=None, moe_router_group_topk=None, moe_router_pre_softmax=False, moe_router_topk_scaling_factor=None, moe_router_score_function='softmax', moe_router_dtype=None, moe_router_enable_expert_bias=False, moe_router_bias_update_rate=0.001, moe_grouped_gemm=True, moe_use_legacy_grouped_gemm=False, moe_aux_loss_coeff=0.001, moe_z_loss_coeff=None, moe_input_jitter_eps=None, moe_token_dropping=False, moe_token_dispatcher_type='alltoall', moe_enable_deepep=False, moe_per_layer_logging=False, moe_expert_capacity_factor=None, moe_pad_expert_input_to_capacity=False, moe_token_drop_policy='probs', moe_layer_recompute=False, moe_permute_fusion=False, cp_comm_type=None, enable_cuda_graph=False, cuda_graph_use_single_mempool=False, cuda_graph_retain_backward_graph=False, cuda_graph_warmup_steps=3, external_cuda_graph=False, cuda_graph_scope='full', clone_scatter_output_in_embedding=True, disable_parameter_transpose_cache=False, config_logger_dir='', flash_decode=False, inference_rng_tracker=False, mrope_section=None, use_custom_fsdp=False, is_hybrid_model=False, mamba_state_dim=128, mamba_head_dim=64, mamba_num_groups=8)[32m [repeated 126x across cluster][0m
+[36m(WorkerDict pid=1821700, ip=[PRIVATE_IP])[0m actor_module: 1
+[36m(WorkerDict pid=1639635, ip=[PRIVATE_IP])[0m  > number of parameters on (tensor, pipeline) model parallel rank (1, 1): 5560213248[32m [repeated 3x across cluster][0m
+[36m(WorkerDict pid=1639640, ip=[PRIVATE_IP])[0m NCCL version 2.21.5+cuda12.4[32m [repeated 17x across cluster][0m
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m DistributedDataParallel contains 5.56B parameters
+[36m(WorkerDict pid=1889683, ip=[PRIVATE_IP])[0m actor_module: 1[32m [repeated 127x across cluster][0m
+[36m(WorkerDict pid=664241, ip=[PRIVATE_IP])[0m NCCL version 2.21.5+cuda12.4[32m [repeated 45x across cluster][0m
+[36m(WorkerDict pid=1898926, ip=[PRIVATE_IP])[0m TransformerConfig(tensor_model_parallel_size=2, pipeline_model_parallel_comm_backend=None, pipeline_model_parallel_size=2, virtual_pipeline_model_parallel_size=None, sequence_parallel=True, context_parallel_size=1, hierarchical_context_parallel_sizes=None, expert_model_parallel_size=32, expert_tensor_parallel_size=1, moe_extended_tp=False, perform_initialization=True, use_cpu_initialization=False, fp16=False, bf16=True, params_dtype=torch.bfloat16, timers=None, finalize_model_grads_func=None, grad_scale_func=None, no_sync_func=None, grad_sync_func=None, param_sync_func=None, deterministic_mode=False, enable_autocast=False, autocast_dtype=torch.bfloat16, num_microbatches_with_partial_activation_checkpoints=None, gradient_accumulation_fusion=False, async_tensor_model_parallel_allreduce=False, use_te_rng_tracker=False, tp_comm_overlap=False, tp_comm_bulk_wgrad=True, tp_comm_bulk_dgrad=True, tp_comm_overlap_ag=True, tp_comm_overlap_rs=True, tp_comm_overlap_rs_dgrad=False, tp_comm_split_ag=True, tp_comm_atomic_ag=False, tp_comm_split_rs=True, tp_comm_atomic_rs=False, cross_entropy_loss_fusion=False, cross_entropy_fusion_impl='native', tp_comm_overlap_disable_qkv=False, tp_comm_overlap_disable_fc1=False, tp_comm_bootstrap_backend='nccl', pipeline_dtype=torch.bfloat16, variable_seq_lengths=True, overlap_p2p_comm=False, batch_p2p_comm=False, batch_p2p_sync=True, use_ring_exchange_p2p=False, deallocate_pipeline_outputs=False, defer_embedding_wgrad_compute=False, wgrad_deferral_limit=0, pipeline_model_parallel_split_rank=None, overlap_p2p_comm_warmup_flush=False, microbatch_group_size_per_vp_stage=2, cpu_offloading=False, cpu_offloading_num_layers=0, _cpu_offloading_context=None, cpu_offloading_activations=True, cpu_offloading_weights=True, barrier_with_L1_time=True, num_layers=94, mtp_num_layers=None, mtp_loss_scaling_factor=None, num_layers_in_first_pipeline_stage=None, num_layers_in_last_pipeline_stage=None, account_for_embedding_in_pipeline_split=False, account_for_loss_in_pipeline_split=False, hidden_size=4096, num_attention_heads=64, attention_backend=<AttnBackend.auto: 5>, softmax_scale=None, num_query_groups=4, ffn_hidden_size=12288, kv_channels=128, hidden_dropout=0.0, attention_dropout=0.0, fp32_residual_connection=False, apply_residual_connection_post_layernorm=False, layernorm_epsilon=1e-06, layernorm_zero_centered_gamma=False, add_bias_linear=False, add_qkv_bias=False, gated_linear_unit=True, activation_func=<function silu at 0x14bc3710a320>, activation_func_fp8_input_store=False, num_moe_experts=128, rotary_interleaved=False, window_size=None, normalization='RMSNorm', qk_layernorm=True, test_mode=False, calculate_per_token_loss=False, multi_latent_attention=False, init_method=functools.partial(<function normal_ at 0x14bc36566f80>, mean=0.0, std=0.02), output_layer_init_method=functools.partial(<function normal_ at 0x14bc36566f80>, mean=0.0, std=0.0014586499149789457), init_method_std=0.02, init_model_with_meta_device=False, apply_query_key_layer_scaling=False, attention_softmax_in_fp32=True, disable_bf16_reduced_precision_matmul=False, bias_activation_fusion=True, masked_softmax_fusion=True, persist_layer_norm=True, memory_efficient_layer_norm=False, bias_dropout_fusion=True, apply_rope_fusion=False, recompute_granularity=None, recompute_method=None, recompute_num_layers=None, distribute_saved_activations=None, fp8=None, fp8_recipe='delayed', fp8_param=False, fp8_margin=0, fp8_interval=1, fp8_amax_history_len=1, fp8_amax_compute_algo='most_recent', fp8_wgrad=True, fp8_dot_product_attention=False, fp8_multi_head_attention=False, tp_only_amax_red=False, first_last_layers_bf16=False, num_layers_at_start_in_bf16=1, num_layers_at_end_in_bf16=1, moe_shared_expert_intermediate_size=None, moe_shared_expert_overlap=False, moe_layer_freq=1, moe_ffn_hidden_size=1536, moe_router_load_balancing_type='aux_loss', moe_router_topk=8, moe_router_topk_limited_devices=None, moe_router_num_groups=None, moe_router_group_topk=None, moe_router_pre_softmax=False, moe_router_topk_scaling_factor=None, moe_router_score_function='softmax', moe_router_dtype=None, moe_router_enable_expert_bias=False, moe_router_bias_update_rate=0.001, moe_grouped_gemm=True, moe_use_legacy_grouped_gemm=False, moe_aux_loss_coeff=0.001, moe_z_loss_coeff=None, moe_input_jitter_eps=None, moe_token_dropping=False, moe_token_dispatcher_type='alltoall', moe_enable_deepep=False, moe_per_layer_logging=False, moe_expert_capacity_factor=None, moe_pad_expert_input_to_capacity=False, moe_token_drop_policy='probs', moe_layer_recompute=False, moe_permute_fusion=False, cp_comm_type=None, enable_cuda_graph=False, cuda_graph_use_single_mempool=False, cuda_graph_retain_backward_graph=False, cuda_graph_warmup_steps=3, external_cuda_graph=False, cuda_graph_scope='full', clone_scatter_output_in_embedding=True, disable_parameter_transpose_cache=False, config_logger_dir='', flash_decode=False, inference_rng_tracker=False, mrope_section=None, use_custom_fsdp=False, is_hybrid_model=False, mamba_state_dim=128, mamba_head_dim=64, mamba_num_groups=8)
+[36m(WorkerDict pid=664049, ip=[PRIVATE_IP])[0m Before building vllm rollout, memory allocated (GB): 19.87, memory reserved (GB): 19.88, device memory used/total (GB): 26.01/139.81
+[36m(WorkerDict pid=1898926, ip=[PRIVATE_IP])[0m WARNING 05-23 07:49:59 [cuda.py:93] To see benefits of async output processing, enable CUDA graph. Since, enforce-eager is enabled, async output processor cannot be used
+[36m(WorkerDict pid=2194634)[0m TransformerConfig(tensor_model_parallel_size=2, pipeline_model_parallel_comm_backend=None, pipeline_model_parallel_size=2, virtual_pipeline_model_parallel_size=None, sequence_parallel=True, context_parallel_size=1, hierarchical_context_parallel_sizes=None, expert_model_parallel_size=32, expert_tensor_parallel_size=1, moe_extended_tp=False, perform_initialization=True, use_cpu_initialization=False, fp16=False, bf16=True, params_dtype=torch.bfloat16, timers=None, finalize_model_grads_func=None, grad_scale_func=None, no_sync_func=None, grad_sync_func=None, param_sync_func=None, deterministic_mode=False, enable_autocast=False, autocast_dtype=torch.bfloat16, num_microbatches_with_partial_activation_checkpoints=None, gradient_accumulation_fusion=False, async_tensor_model_parallel_allreduce=False, use_te_rng_tracker=False, tp_comm_overlap=False, tp_comm_bulk_wgrad=True, tp_comm_bulk_dgrad=True, tp_comm_overlap_ag=True, tp_comm_overlap_rs=True, tp_comm_overlap_rs_dgrad=False, tp_comm_split_ag=True, tp_comm_atomic_ag=False, tp_comm_split_rs=True, tp_comm_atomic_rs=False, cross_entropy_loss_fusion=False, cross_entropy_fusion_impl='native', tp_comm_overlap_disable_qkv=False, tp_comm_overlap_disable_fc1=False, tp_comm_bootstrap_backend='nccl', pipeline_dtype=torch.bfloat16, variable_seq_lengths=True, overlap_p2p_comm=False, batch_p2p_comm=False, batch_p2p_sync=True, use_ring_exchange_p2p=False, deallocate_pipeline_outputs=False, defer_embedding_wgrad_compute=False, wgrad_deferral_limit=0, pipeline_model_parallel_split_rank=None, overlap_p2p_comm_warmup_flush=False, microbatch_group_size_per_vp_stage=2, cpu_offloading=False, cpu_offloading_num_layers=0, _cpu_offloading_context=None, cpu_offloading_activations=True, cpu_offloading_weights=True, barrier_with_L1_time=True, num_layers=94, mtp_num_layers=None, mtp_loss_scaling_factor=None, num_layers_in_first_pipeline_stage=None, num_layers_in_last_pipeline_stage=None, account_for_embedding_in_pipeline_split=False, account_for_loss_in_pipeline_split=False, hidden_size=4096, num_attention_heads=64, attention_backend=<AttnBackend.auto: 5>, softmax_scale=None, num_query_groups=4, ffn_hidden_size=12288, kv_channels=128, hidden_dropout=0.0, attention_dropout=0.0, fp32_residual_connection=False, apply_residual_connection_post_layernorm=False, layernorm_epsilon=1e-06, layernorm_zero_centered_gamma=False, add_bias_linear=False, add_qkv_bias=False, gated_linear_unit=True, activation_func=<function silu at 0x14afc3fb63b0>, activation_func_fp8_input_store=False, num_moe_experts=128, rotary_interleaved=False, window_size=None, normalization='RMSNorm', qk_layernorm=True, test_mode=False, calculate_per_token_loss=False, multi_latent_attention=False, init_method=functools.partial(<function normal_ at 0x14af728d3010>, mean=0.0, std=0.02), output_layer_init_method=functools.partial(<function normal_ at 0x14af728d3010>, mean=0.0, std=0.0014586499149789457), init_method_std=0.02, init_model_with_meta_device=False, apply_query_key_layer_scaling=False, attention_softmax_in_fp32=True, disable_bf16_reduced_precision_matmul=False, bias_activation_fusion=True, masked_softmax_fusion=True, persist_layer_norm=True, memory_efficient_layer_norm=False, bias_dropout_fusion=True, apply_rope_fusion=False, recompute_granularity=None, recompute_method=None, recompute_num_layers=None, distribute_saved_activations=None, fp8=None, fp8_recipe='delayed', fp8_param=False, fp8_margin=0, fp8_interval=1, fp8_amax_history_len=1, fp8_amax_compute_algo='most_recent', fp8_wgrad=True, fp8_dot_product_attention=False, fp8_multi_head_attention=False, tp_only_amax_red=False, first_last_layers_bf16=False, num_layers_at_start_in_bf16=1, num_layers_at_end_in_bf16=1, moe_shared_expert_intermediate_size=None, moe_shared_expert_overlap=False, moe_layer_freq=1, moe_ffn_hidden_size=1536, moe_router_load_balancing_type='aux_loss', moe_router_topk=8, moe_router_topk_limited_devices=None, moe_router_num_groups=None, moe_router_group_topk=None, moe_router_pre_softmax=False, moe_router_topk_scaling_factor=None, moe_router_score_function='softmax', moe_router_dtype=None, moe_router_enable_expert_bias=False, moe_router_bias_update_rate=0.001, moe_grouped_gemm=True, moe_use_legacy_grouped_gemm=False, moe_aux_loss_coeff=0.001, moe_z_loss_coeff=None, moe_input_jitter_eps=None, moe_token_dropping=False, moe_token_dispatcher_type='alltoall', moe_enable_deepep=False, moe_per_layer_logging=False, moe_expert_capacity_factor=None, moe_pad_expert_input_to_capacity=False, moe_token_drop_policy='probs', moe_layer_recompute=False, moe_permute_fusion=False, cp_comm_type=None, enable_cuda_graph=False, cuda_graph_use_single_mempool=False, cuda_graph_retain_backward_graph=False, cuda_graph_warmup_steps=3, external_cuda_graph=False, cuda_graph_scope='full', clone_scatter_output_in_embedding=True, disable_parameter_transpose_cache=False, config_logger_dir='', flash_decode=False, inference_rng_tracker=False, mrope_section=None, use_custom_fsdp=False, is_hybrid_model=False, mamba_state_dim=128, mamba_head_dim=64, mamba_num_groups=8)[32m [repeated 127x across cluster][0m
+[36m(WorkerDict pid=1898926, ip=[PRIVATE_IP])[0m WARNING 05-23 07:49:59 [utils.py:2522] Methods determine_num_available_blocks,device_config,get_cache_block_size_bytes,initialize_cache not implemented in <vllm.v1.worker.gpu_worker.Worker object at 0x14b572e993f0>
+[36m(WorkerDict pid=1616556, ip=[PRIVATE_IP])[0m NCCL version 2.21.5+cuda12.4
+[36m(WorkerDict pid=2194634)[0m WARNING 05-23 07:50:02 [cuda.py:93] To see benefits of async output processing, enable CUDA graph. Since, enforce-eager is enabled, async output processor cannot be used[32m [repeated 127x across cluster][0m
+[36m(WorkerDict pid=1898929, ip=[PRIVATE_IP])[0m kwargs: {'n': 8, 'logprobs': 0, 'max_tokens': 4096, 'detokenize': False, 'temperature': 1.0, 'top_k': -1, 'top_p': 1, 'ignore_eos': False}
+[36m(WorkerDict pid=1898929, ip=[PRIVATE_IP])[0m Overridden TF init config: {'num_layers': 94, 'hidden_size': 4096, 'num_attention_heads': 64, 'num_query_groups': 4, 'ffn_hidden_size': 12288, 'attention_dropout': 0.0, 'hidden_dropout': 0.0, 'kv_channels': 128, 'layernorm_epsilon': 1e-06, 'activation_func': <function silu at 0x14975381e320>, 'normalization': 'RMSNorm', 'gated_linear_unit': True, 'pipeline_dtype': torch.bfloat16, 'params_dtype': torch.bfloat16, 'bf16': True, 'tensor_model_parallel_size': 2, 'pipeline_model_parallel_size': 2, 'expert_model_parallel_size': 32, 'expert_tensor_parallel_size': 1, 'virtual_pipeline_model_parallel_size': None, 'context_parallel_size': 1, 'overlap_p2p_comm': False, 'batch_p2p_comm': False, 'sequence_parallel': True, 'variable_seq_lengths': True, 'masked_softmax_fusion': True, 'moe_token_dispatcher_type': 'alltoall', 'use_cpu_initialization': False, 'add_bias_linear': False, 'moe_ffn_hidden_size': 1536, 'moe_router_bias_update_rate': 0.001, 'moe_router_topk': 8, 'num_moe_experts': 128, 'moe_aux_loss_coeff': 0.001, 'moe_router_load_balancing_type': 'aux_loss', 'moe_grouped_gemm': True, 'moe_router_score_function': 'softmax', 'persist_layer_norm': True, 'bias_activation_fusion': True, 'bias_dropout_fusion': True, 'moe_router_pre_softmax': False, 'qk_layernorm': True}
+[36m(WorkerDict pid=2194634)[0m WARNING 05-23 07:50:03 [utils.py:2522] Methods determine_num_available_blocks,device_config,get_cache_block_size_bytes,initialize_cache not implemented in <vllm.v1.worker.gpu_worker.Worker object at 0x14a8ef618550>[32m [repeated 127x across cluster][0m
+[36m(WorkerDict pid=1821694, ip=[PRIVATE_IP])[0m NCCL version 2.21.5+cuda12.4[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m kwargs: {'n': 8, 'logprobs': 0, 'max_tokens': 4096, 'detokenize': False, 'temperature': 1.0, 'top_k': -1, 'top_p': 1, 'ignore_eos': False}[32m [repeated 120x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m Overridden TF init config: {'num_layers': 94, 'hidden_size': 4096, 'num_attention_heads': 64, 'num_query_groups': 4, 'ffn_hidden_size': 12288, 'attention_dropout': 0.0, 'hidden_dropout': 0.0, 'kv_channels': 128, 'layernorm_epsilon': 1e-06, 'activation_func': <function silu at 0x14b9b06d63b0>, 'normalization': 'RMSNorm', 'gated_linear_unit': True, 'pipeline_dtype': torch.bfloat16, 'params_dtype': torch.bfloat16, 'bf16': True, 'tensor_model_parallel_size': 2, 'pipeline_model_parallel_size': 2, 'expert_model_parallel_size': 32, 'expert_tensor_parallel_size': 1, 'virtual_pipeline_model_parallel_size': None, 'context_parallel_size': 1, 'overlap_p2p_comm': False, 'batch_p2p_comm': False, 'sequence_parallel': True, 'variable_seq_lengths': True, 'masked_softmax_fusion': True, 'moe_token_dispatcher_type': 'alltoall', 'use_cpu_initialization': False, 'add_bias_linear': False, 'moe_ffn_hidden_size': 1536, 'moe_router_bias_update_rate': 0.001, 'moe_router_topk': 8, 'num_moe_experts': 128, 'moe_aux_loss_coeff': 0.001, 'moe_router_load_balancing_type': 'aux_loss', 'moe_grouped_gemm': True, 'moe_router_score_function': 'softmax', 'persist_layer_norm': True, 'bias_activation_fusion': True, 'bias_dropout_fusion': True, 'moe_router_pre_softmax': False, 'qk_layernorm': True}[32m [repeated 120x across cluster][0m
+[36m(TaskRunner pid=2191279)[0m Saving tensorboard log to /DATA_PATH//models/verl_grpo_megatron_gsm8k/qwen3_235b22b_moe_mcore_tp_etp_not_same/v20250523_074035/logs.
+[36m(TaskRunner pid=2191279)[0m Using LocalLogger is deprecated. The constructor API will change 
+[36m(TaskRunner pid=2191279)[0m Checkpoint tracker file does not exist: %s /DATA_PATH//models/verl_grpo_megatron_gsm8k/qwen3_235b22b_moe_mcore_tp_etp_not_same/v20250523_074035/latest_checkpointed_iteration.txt
+[36m(TaskRunner pid=2191279)[0m Training from scratch
+[36m(TaskRunner pid=2191279)[0m test_gen_batch meta info: {'eos_token_id': 151645, 'pad_token_id': 151643, 'recompute_log_prob': False, 'do_sample': False, 'validate': True}
+[36m(WorkerDict pid=2194640)[0m kwargs: {'n': 8, 'logprobs': 0, 'max_tokens': 4096, 'detokenize': False, 'temperature': 1.0, 'top_k': -1, 'top_p': 1, 'ignore_eos': False}[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194640)[0m Overridden TF init config: {'num_layers': 94, 'hidden_size': 4096, 'num_attention_heads': 64, 'num_query_groups': 4, 'ffn_hidden_size': 12288, 'attention_dropout': 0.0, 'hidden_dropout': 0.0, 'kv_channels': 128, 'layernorm_epsilon': 1e-06, 'activation_func': <function silu at 0x14c9e4b023b0>, 'normalization': 'RMSNorm', 'gated_linear_unit': True, 'pipeline_dtype': torch.bfloat16, 'params_dtype': torch.bfloat16, 'bf16': True, 'tensor_model_parallel_size': 2, 'pipeline_model_parallel_size': 2, 'expert_model_parallel_size': 32, 'expert_tensor_parallel_size': 1, 'virtual_pipeline_model_parallel_size': None, 'context_parallel_size': 1, 'overlap_p2p_comm': False, 'batch_p2p_comm': False, 'sequence_parallel': True, 'variable_seq_lengths': True, 'masked_softmax_fusion': True, 'moe_token_dispatcher_type': 'alltoall', 'use_cpu_initialization': False, 'add_bias_linear': False, 'moe_ffn_hidden_size': 1536, 'moe_router_bias_update_rate': 0.001, 'moe_router_topk': 8, 'num_moe_experts': 128, 'moe_aux_loss_coeff': 0.001, 'moe_router_load_balancing_type': 'aux_loss', 'moe_grouped_gemm': True, 'moe_router_score_function': 'softmax', 'persist_layer_norm': True, 'bias_activation_fusion': True, 'bias_dropout_fusion': True, 'moe_router_pre_softmax': False, 'qk_layernorm': True}[32m [repeated 7x across cluster][0m
+[36m(WorkerDict pid=2194639)[0m NCCL version 2.21.5+cuda12.4
+[36m(TaskRunner pid=2191279)[0m validation generation end
+[36m(WorkerDict pid=1806693, ip=[PRIVATE_IP])[0m NCCL version 2.21.5+cuda12.4[32m [repeated 39x across cluster][0m
+[36m(TaskRunner pid=2191279)[0m [prompt] user
+[36m(TaskRunner pid=2191279)[0m Janet’s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market? Let's think step by step and output the final answer after "####".
+[36m(TaskRunner pid=2191279)[0m assistant
+[36m(TaskRunner pid=2191279)[0m 
+[36m(TaskRunner pid=2191279)[0m [response] <think>
+[36m(TaskRunner pid=2191279)[0m Okay, let's see. Janet has ducks that lay 16 eggs each day. She uses some of those eggs for herself and her friends, and then sells the rest. The problem is asking how much money she makes every day from selling the eggs at the farmers' market. Let me break this down step by step.
+[36m(TaskRunner pid=2191279)[0m 
+[36m(TaskRunner pid=2191279)[0m First, the total eggs laid per day are 16. Then she eats three for breakfast. So subtract those three from the total. Then she bakes muffins with four eggs. So subtract another four. The remaining eggs are the ones she sells. Each of those sells for $2. So I need to calculate the remaining eggs after her personal use and then multiply by 2 to get the total dollars.
+[36m(TaskRunner pid=2191279)[0m 
+[36m(TaskRunner pid=2191279)[0m Let me write this out:
+[36m(TaskRunner pid=2191279)[0m 
+[36m(TaskRunner pid=2191279)[0m Total eggs per day = 16
+[36m(TaskRunner pid=2191279)[0m 
+[36m(TaskRunner pid=2191279)[0m Eggs eaten for breakfast = 3
+[36m(TaskRunner pid=2191279)[0m 
+[36m(TaskRunner pid=2191279)[0m Eggs used for baking muffins = 4
+[36m(TaskRunner pid=2191279)[0m 
+[36m(TaskRunner pid=2191279)[0m So the eggs left for selling would be 16 minus 3 minus 4. Let me compute that. 16 - 3 is 13, then 13 -4 is 9. Wait, 16 minus 3 minus 4 equals 9? Hmm, 3+4 is 7, so 16-7 is 9. Yes, that's right. So she sells 9 eggs each day.
+[36m(TaskRunner pid=2191279)[0m 
+[36m(TaskRunner pid=2191279)[0m Then, each egg sells for $2. So total money made is 9 * 2 = $18. So the answer should be 18 dollars.
+[36m(TaskRunner pid=2191279)[0m 
+[36m(TaskRunner pid=2191279)[0m Wait, let me double-check. Maybe I made a mistake in subtraction. Let's see: 16 eggs total. She uses 3 +4 =7 eggs. 16-7 is indeed 9. Then 9 times $2 each. 9*2 is 18. That seems correct. So she makes $18 each day at the farmers' market.
+[36m(TaskRunner pid=2191279)[0m 
+[36m(TaskRunner pid=2191279)[0m I don't see any other steps or factors mentioned in the problem. The problem says "the remainder" so that's all the eggs left after her personal use. And the price is per egg, $2 each. So yes, 9 times two. Yep, that's 18. I think that's the answer.
+[36m(TaskRunner pid=2191279)[0m </think>
+[36m(TaskRunner pid=2191279)[0m 
+[36m(TaskRunner pid=2191279)[0m Janet's ducks lay a total of 16 eggs per day. She uses 3 eggs for breakfast and 4 eggs for baking muffins. The total eggs used for personal purposes are:
+[36m(TaskRunner pid=2191279)[0m 
+[36m(TaskRunner pid=2191279)[0m $$
+[36m(TaskRunner pid=2191279)[0m 3 + 4 = 7 \text{ eggs}
+[36m(TaskRunner pid=2191279)[0m $$
+[36m(TaskRunner pid=2191279)[0m 
+[36m(TaskRunner pid=2191279)[0m Subtracting this from the total eggs laid:
+[36m(TaskRunner pid=2191279)[0m 
+[36m(TaskRunner pid=2191279)[0m $$
+[36m(TaskRunner pid=2191279)[0m 16 - 7 = 9 \text{ eggs remaining}
+[36m(TaskRunner pid=2191279)[0m $$
+[36m(TaskRunner pid=2191279)[0m 
+[36m(TaskRunner pid=2191279)[0m She sells these 9 eggs at the farmers' market for $2 per egg. Her daily earnings are:
+[36m(TaskRunner pid=2191279)[0m 
+[36m(TaskRunner pid=2191279)[0m $$
+[36m(TaskRunner pid=2191279)[0m 9 \times 2 = 18 \text{ dollars}
+[36m(TaskRunner pid=2191279)[0m $$
+[36m(TaskRunner pid=2191279)[0m 
+[36m(TaskRunner pid=2191279)[0m #### 18
+[36m(TaskRunner pid=2191279)[0m [ground_truth] 18
+[36m(TaskRunner pid=2191279)[0m [score] 1.0
+[36m(TaskRunner pid=2191279)[0m ("Initial validation metrics: {'val-core/openai/gsm8k/reward/mean@1': "
+[36m(TaskRunner pid=2191279)[0m  '0.5231235784685367}')
+[36m(TaskRunner pid=2191279)[0m step:0 - val-core/openai/gsm8k/reward/mean@1:0.523
+[36m(TaskRunner pid=2191279)[0m list(reward_extra_infos_dict.keys())=[]
+[36m(TaskRunner pid=2191279)[0m step:1 - global_seqlen/min:2867.000 - global_seqlen/max:32364.000 - global_seqlen/minmax_diff:29497.000 - global_seqlen/balanced_min:11095.000 - global_seqlen/balanced_max:11146.000 - global_seqlen/mean:11123.141 - actor/entropy_loss:11.931 - actor/reward_kl_penalty:-0.000 - actor/reward_kl_penalty_coeff:0.001 - actor/kl_loss:0.010 - actor/kl_coef:0.001 - actor/pg_loss:-0.004 - actor/pg_clipfrac:0.037 - actor/ppo_kl:0.001 - actor/pg_clipfrac_lower:0.000 - actor/grad_norm:0.587 - actor/lr:0.000 - perf/mfu/actor:0.219 - training/global_step:1.000 - training/epoch:0.000 - critic/score/mean:0.474 - critic/score/max:1.000 - critic/score/min:0.000 - critic/rewards/mean:0.474 - critic/rewards/max:1.042 - critic/rewards/min:-0.023 - critic/advantages/mean:-0.038 - critic/advantages/max:2.475 - critic/advantages/min:-2.475 - critic/returns/mean:-0.038 - critic/returns/max:2.475 - critic/returns/min:-2.475 - response_length/mean:1306.096 - response_length/max:4096.000 - response_length/min:228.000 - response_length/clip_ratio:0.041 - prompt_length/mean:84.297 - prompt_length/max:149.000 - prompt_length/min:45.000 - prompt_length/clip_ratio:0.000 - timing_s/gen:425.884 - timing_s/reward:0.514 - timing_s/old_log_prob:55.894 - timing_s/ref:27.195 - timing_s/adv:0.073 - timing_s/update_actor:71.430 - timing_s/step:581.591 - timing_per_token_ms/adv:0.000 - timing_per_token_ms/update_actor:0.050 - timing_per_token_ms/gen:0.318 - timing_per_token_ms/ref:0.019 - perf/total_num_tokens:1423762.000 - perf/time_per_step:581.591 - perf/throughput:19.125
+[36m(TaskRunner pid=2191279)[0m list(reward_extra_infos_dict.keys())=[]
+[36m(TaskRunner pid=2191279)[0m step:2 - global_seqlen/min:2564.000 - global_seqlen/max:33480.000 - global_seqlen/minmax_diff:30916.000 - global_seqlen/balanced_min:10424.000 - global_seqlen/balanced_max:10733.000 - global_seqlen/mean:10587.719 - actor/entropy_loss:11.931 - actor/reward_kl_penalty:-0.000 - actor/reward_kl_penalty_coeff:0.001 - actor/kl_loss:0.009 - actor/kl_coef:0.001 - actor/pg_loss:0.122 - actor/pg_clipfrac:0.033 - actor/ppo_kl:0.000 - actor/pg_clipfrac_lower:0.000 - actor/grad_norm:0.576 - actor/lr:0.000 - perf/mfu/actor:0.210 - training/global_step:2.000 - training/epoch:0.000 - critic/score/mean:0.548 - critic/score/max:1.000 - critic/score/min:0.000 - critic/rewards/mean:0.548 - critic/rewards/max:1.021 - critic/rewards/min:-0.027 - critic/advantages/mean:-0.059 - critic/advantages/max:2.475 - critic/advantages/min:-2.475 - critic/returns/mean:-0.059 - critic/returns/max:2.475 - critic/returns/min:-2.475 - response_length/mean:1240.309 - response_length/max:4096.000 - response_length/min:209.000 - response_length/clip_ratio:0.044 - prompt_length/mean:83.156 - prompt_length/max:168.000 - prompt_length/min:49.000 - prompt_length/clip_ratio:0.000 - timing_s/gen:403.466 - timing_s/reward:0.554 - timing_s/old_log_prob:30.288 - timing_s/ref:25.065 - timing_s/adv:0.085 - timing_s/update_actor:63.213 - timing_s/step:523.197 - timing_per_token_ms/adv:0.000 - timing_per_token_ms/update_actor:0.047 - timing_per_token_ms/gen:0.318 - timing_per_token_ms/ref:0.018 - perf/total_num_tokens:1355228.000 - perf/time_per_step:523.197 - perf/throughput:20.237
+[36m(TaskRunner pid=2191279)[0m list(reward_extra_infos_dict.keys())=[]
+[36m(TaskRunner pid=2191279)[0m step:3 - global_seqlen/min:3168.000 - global_seqlen/max:33400.000 - global_seqlen/minmax_diff:30232.000 - global_seqlen/balanced_min:11320.000 - global_seqlen/balanced_max:11331.000 - global_seqlen/mean:11326.820 - actor/entropy_loss:11.931 - actor/reward_kl_penalty:0.000 - actor/reward_kl_penalty_coeff:0.001 - actor/kl_loss:0.010 - actor/kl_coef:0.001 - actor/pg_loss:-0.265 - actor/pg_clipfrac:0.039 - actor/ppo_kl:-0.001 - actor/pg_clipfrac_lower:0.000 - actor/grad_norm:0.584 - actor/lr:0.000 - perf/mfu/actor:0.246 - training/global_step:3.000 - training/epoch:0.000 - critic/score/mean:0.548 - critic/score/max:1.000 - critic/score/min:0.000 - critic/rewards/mean:0.548 - critic/rewards/max:1.026 - critic/rewards/min:-0.028 - critic/advantages/mean:-0.058 - critic/advantages/max:2.475 - critic/advantages/min:-2.475 - critic/returns/mean:-0.058 - critic/returns/max:2.475 - critic/returns/min:-2.475 - response_length/mean:1332.353 - response_length/max:4096.000 - response_length/min:243.000 - response_length/clip_ratio:0.054 - prompt_length/mean:83.500 - prompt_length/max:162.000 - prompt_length/min:44.000 - prompt_length/clip_ratio:0.000 - timing_s/gen:437.658 - timing_s/reward:0.541 - timing_s/old_log_prob:30.934 - timing_s/ref:24.752 - timing_s/adv:0.077 - timing_s/update_actor:58.610 - timing_s/step:553.063 - timing_per_token_ms/adv:0.000 - timing_per_token_ms/update_actor:0.040 - timing_per_token_ms/gen:0.321 - timing_per_token_ms/ref:0.017 - perf/total_num_tokens:1449833.000 - perf/time_per_step:553.063 - perf/throughput:20.480
+[36m(TaskRunner pid=2191279)[0m list(reward_extra_infos_dict.keys())=[]
+[36m(TaskRunner pid=2191279)[0m step:4 - global_seqlen/min:2969.000 - global_seqlen/max:34320.000 - global_seqlen/minmax_diff:31351.000 - global_seqlen/balanced_min:11344.000 - global_seqlen/balanced_max:11385.000 - global_seqlen/mean:11364.852 - actor/entropy_loss:11.931 - actor/reward_kl_penalty:0.000 - actor/reward_kl_penalty_coeff:0.001 - actor/kl_loss:0.010 - actor/kl_coef:0.001 - actor/pg_loss:-0.149 - actor/pg_clipfrac:0.037 - actor/ppo_kl:0.001 - actor/pg_clipfrac_lower:0.000 - actor/grad_norm:0.596 - actor/lr:0.000 - perf/mfu/actor:0.226 - training/global_step:4.000 - training/epoch:0.000 - critic/score/mean:0.616 - critic/score/max:1.000 - critic/score/min:0.000 - critic/rewards/mean:0.616 - critic/rewards/max:1.017 - critic/rewards/min:-0.032 - critic/advantages/mean:-0.031 - critic/advantages/max:2.475 - critic/advantages/min:-2.475 - critic/returns/mean:-0.031 - critic/returns/max:2.475 - critic/returns/min:-2.475 - response_length/mean:1335.911 - response_length/max:4096.000 - response_length/min:209.000 - response_length/clip_ratio:0.069 - prompt_length/mean:84.695 - prompt_length/max:194.000 - prompt_length/min:48.000 - prompt_length/clip_ratio:0.000 - timing_s/gen:440.420 - timing_s/reward:0.525 - timing_s/old_log_prob:31.486 - timing_s/ref:24.538 - timing_s/adv:0.080 - timing_s/update_actor:63.980 - timing_s/step:561.594 - timing_per_token_ms/adv:0.000 - timing_per_token_ms/update_actor:0.044 - timing_per_token_ms/gen:0.322 - timing_per_token_ms/ref:0.017 - perf/total_num_tokens:1454701.000 - perf/time_per_step:561.594 - perf/throughput:20.237
